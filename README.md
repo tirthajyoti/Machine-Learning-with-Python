@@ -1,5 +1,6 @@
 # Python Machine Learning Notebooks
 Essential codes for jump-starting machine learning/data science with Python
+
 ### Essential tutorial-type notebooks on Pandas and Numpy
 * Jupyter notebooks covering a wide range of functions and operations on the topics of NumPy, Pandans, Seaborn, matplotlib etc.
 
@@ -14,7 +15,7 @@ Essential codes for jump-starting machine learning/data science with Python
 * Support vector machine classification
 * _K_-means clustering
 
-### Function approximation by linear model and Deep Learning
+### Function approximation by linear model and Deep Learning method
 * Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.
 * Step-by-step building of 1-hidden-layer and 2-hidden-layer dense network using basic TensorFlow methods 
 
