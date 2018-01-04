@@ -12,3 +12,7 @@ Essential codes for jump-starting machine learning/data science with Python
 * Decision trees and Random Forest
 * Support vector machine classification
 * K-means clustering
+
+### Function approximation by linear model and Deep Learning
+* Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.
+* Step-by-step building of 1-hidden-layer and 2-hidden-layer dense network using basic TensorFlow methods 
