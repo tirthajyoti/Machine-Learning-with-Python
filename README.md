@@ -21,3 +21,7 @@ Essential codes for jump-starting machine learning/data science with Python
 
 ### Basic interactive controls demo
 * Demo on how to integrate basic interactive controls (slider bars, drop-down menus, check-boxes etc.) in a Jupyter notebook and use them for interactive machine learning task
+
+
+--------------------------------------------------------------------------------------------------------------------
+You can [add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7/)
