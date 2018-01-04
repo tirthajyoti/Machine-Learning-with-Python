@@ -24,4 +24,4 @@ Essential codes for jump-starting machine learning/data science with Python
 
 
 --------------------------------------------------------------------------------------------------------------------
-You can [add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7/)
+**You can [add me on LinkedIn here]**(https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7/)
