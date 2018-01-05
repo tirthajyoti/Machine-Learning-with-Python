@@ -8,10 +8,11 @@ Essential codes for jump-starting machine learning/data science with Python
 * Simple linear regression with t-statistic generation
 * Multiple ways to do linear regression in Python and their speed comparison ([check the article I wrote on freeCodeCamp](https://medium.freecodecamp.org/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b))
 * Multi-variate regression with regularization
-* Polynomial regression with how to use scikit-learn pipeline feature ([check the article I wrote on *Towards Data Science*](https://towardsdatascience.com/machine-learning-with-python-easy-and-robust-method-to-fit-nonlinear-data-19e8a1ddbd49))
+* Polynomial regression with how to use ***scikit-learn pipeline feature*** ([check the article I wrote on *Towards Data Science*](https://towardsdatascience.com/machine-learning-with-python-easy-and-robust-method-to-fit-nonlinear-data-19e8a1ddbd49))
 * Logistic regression/classification
 * _k_-nearest neighbor classification
-* Decision trees and Random Forest
+* Decision trees and Random Forest Classification
+* Decision trees and Random Forest regression (showing how the Random Forest works as a robust/regularized meta-estimator rejecting overfitting)
 * Support vector machine classification
 * _K_-means clustering
 
