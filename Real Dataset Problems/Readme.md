@@ -1,4 +1,2 @@
 ## Machine Learning applied to real world datasets
-* UCI Machine Learning Repository
-* Kaggle
-* Various other open-source datasets
+* Forest Fire Prediction - This is a difficult regression task, where the aim is to predict the burned area of forest fires, in the northeast region of Portugal, by using meteorological and other data. Collected from [UCI ML repository](http://archive.ics.uci.edu/ml/index.php). Details can be found [here](http://archive.ics.uci.edu/ml/datasets/Forest+Fires).
