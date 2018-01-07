@@ -23,6 +23,37 @@ Essential codes for jump-starting machine learning/data science with Python
 ### Basic interactive controls demo
 * Demo on how to integrate basic interactive controls (slider bars, drop-down menus, check-boxes etc.) in a Jupyter notebook and use them for interactive machine learning task
 
+## Run Jupyter using Docker
+
+The https://github.com/machine-learning-helpers/docker-python-jupyter project builds a Docker image so that the (your) Jupyter notebooks can be run out-of-the-box on almost any platform in a few minutes.
+
+It gives something like:
+
+    Initialization of the Git repository for the Jupyter notebooks:
+
+$ mkdir -p ~/dev/ml
+$ cd ~/dev/ml
+$ git clone https://github.com/tirthajyoti/PythonMachineLearning.git
+
+    Initialization of the Docker image to run those Jupyter notebooks:
+
+$ docker pull artificialintelligence/python-jupyter
+
+    Usage:
+
+$ cd ~/dev/ml/PythonMachineLearning
+$ docker run -d -p 9000:8888 -v ${PWD}:/notebook -v ${PWD}:/data artificialintelligence/python-jupyter
+
+And then you can open http://localhost:9000 in your browser.
+
+Any modification to the notebooks may be committed to the Git repository (if you are registered as a contributor), and/or submitted as a pull request.
+
+    Shutdown the Docker image
+
+$ docker ps
+CONTAINER ID        IMAGE                                   COMMAND                  CREATED             STATUS              PORTS                    NAMES
+431b12a93ccf        artificialintelligence/python-jupyter   "/bin/sh -c 'jupyt..."   4 minutes ago       Up 4 minutes        0.0.0.0:9000->8888/tcp   friendly_euclid
+$ docker kill 431b12a93ccf 
 
 --------------------------------------------------------------------------------------------------------------------
 **You can [add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7/)**
