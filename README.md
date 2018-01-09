@@ -22,6 +22,7 @@ Essential codes for jump-starting machine learning/data science with Python
 
 ### Clustering
 * _K_-means clustering
+* Affinity propagation (showing its time complexity and the effect of damping factor)
 
 ### Deep Learning/Neural Network
 * Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.
