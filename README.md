@@ -25,6 +25,7 @@ Essential codes for jump-starting machine learning/data science with Python
 * Affinity propagation (showing its time complexity and the effect of damping factor)
 * Mean-shift technique (showing its time complexity and the effect of noise on cluster discovery)
 * Hierarchical clustering with Dendograms showing how to choose optimal number of clusters
+* DBSCAN (showing how it can generically detect areas of high density irrespective of cluster shapes, which the k-means fails to do)
 
 ### Deep Learning/Neural Network
 * Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.
