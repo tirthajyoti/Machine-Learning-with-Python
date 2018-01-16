@@ -4,7 +4,7 @@ Essential codes for jump-starting machine learning/data science with Python
 ## Essential tutorial-type notebooks on Pandas and Numpy
 * Jupyter notebooks covering a wide range of functions and operations on the topics of NumPy, Pandans, Seaborn, matplotlib etc.
 
-## Tutorial-type notebooks covering regression, classification, clustering, and some basic neural network algorithms
+## Tutorial-type notebooks covering regression, classification, clustering, dimensionality reduction, and some basic neural network algorithms
 
 ### Regression
 * Simple linear regression with t-statistic generation
@@ -26,6 +26,9 @@ Essential codes for jump-starting machine learning/data science with Python
 * Mean-shift technique (showing its time complexity and the effect of noise on cluster discovery)
 * Hierarchical clustering with Dendograms showing how to choose optimal number of clusters
 * DBSCAN (showing how it can generically detect areas of high density irrespective of cluster shapes, which the k-means fails to do)
+
+### Dimensionality reduction
+* Principal component analysis
 
 ### Deep Learning/Neural Network
 * Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.
