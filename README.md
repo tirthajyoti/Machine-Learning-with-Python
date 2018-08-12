@@ -60,13 +60,13 @@ $ cd ~/dev/ml/PythonMachineLearning
 $ docker run -d -p 9000:8888 -v ${PWD}:/notebook -v ${PWD}:/data artificialintelligence/python-jupyter
 ```
 And then you can open http://localhost:9000 in your browser.
-
-Any modification to the notebooks may be committed to the Git repository (if you are registered as a contributor), and/or submitted as a pull request.
-Shutdown
 ```
 $ docker ps
 CONTAINER ID        IMAGE                                   COMMAND                  CREATED             STATUS              PORTS                    NAMES
 431b12a93ccf        artificialintelligence/python-jupyter   "/bin/sh -c 'jupyt..."   4 minutes ago       Up 4 minutes        0.0.0.0:9000->8888/tcp   friendly_euclid
+```
+Shutdown
+```
 $ docker kill 431b12a93ccf 
 ```
 --------------------------------------------------------------------------------------------------------------------
