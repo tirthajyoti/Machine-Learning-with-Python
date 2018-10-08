@@ -1,1 +1,1 @@
-### Demo notebook to show how deep neural network is superiror to regression models for complex non-linear function approximation tasks
+## Demo notebook to show how deep neural network is superiror to non-linear regression models for complex function approximation tasks
