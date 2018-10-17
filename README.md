@@ -33,10 +33,9 @@ Essential codes for jump-starting machine learning/data science with Python
 * _K_-means clustering
 * Affinity propagation (showing its time complexity and the effect of damping factor)
 * Mean-shift technique (showing its time complexity and the effect of noise on cluster discovery)
-* Hierarchical clustering with Dendograms showing how to choose optimal number of clusters
-<img src="https://www.researchgate.net/profile/Carsten_Walther/publication/273456906/figure/fig3/AS:294866065084419@1447312956501/Example-of-hierarchical-clustering-clusters-are-consecutively-merged-with-the-most.png" width="800" height="400"/>
-
 * DBSCAN (showing how it can generically detect areas of high density irrespective of cluster shapes, which the k-means fails to do)
+* Hierarchical clustering with Dendograms showing how to choose optimal number of clusters
+<img src="https://www.researchgate.net/profile/Carsten_Walther/publication/273456906/figure/fig3/AS:294866065084419@1447312956501/Example-of-hierarchical-clustering-clusters-are-consecutively-merged-with-the-most.png" width="700" height="400"/>
 
 ### Dimensionality reduction
 <img src="https://i.ytimg.com/vi/QP43Iy-QQWY/maxresdefault.jpg" width="450" height="300"/>
