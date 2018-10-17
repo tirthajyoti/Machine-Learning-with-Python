@@ -46,8 +46,8 @@ Essential codes for jump-starting machine learning/data science with Python
 * Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.
 * Step-by-step building of 1-hidden-layer and 2-hidden-layer dense network using basic TensorFlow methods 
 
-## Basic interactive controls demo
-* Demo on how to integrate basic interactive controls (slider bars, drop-down menus, check-boxes etc.) in a Jupyter notebook and use them for interactive machine learning task
+## Random data generation using symbolic expressions
+* How to use [Sympy package](https://www.sympy.org/en/index.html) to generate random datasets using symbolic mathematical expressions. Here is my article on Medium on this topic: [Random regression and classification problem generation with symbolic expression](https://towardsdatascience.com/random-regression-and-classification-problem-generation-with-symbolic-expression-a4e190e37b8d)
 
 --------------------------------------------------------------------------------------------------------------------
 **You can [add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7/)**
