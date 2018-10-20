@@ -1,5 +1,8 @@
 # Python Machine Learning Notebooks
-Essential codes for jump-starting machine learning/data science with Python
+Essential codes for jump-starting machine learning/data science with Python.
+
+You can start with this article that I wrote in Heartbeat platform: 
+### ["Some Essential Hacks and Tricks for Machine Learning with Python"](https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machine-learning-with-python-5478bc6593f2)
 
 ## Essential tutorial-type notebooks on Pandas and Numpy
 * Jupyter notebooks covering a wide range of functions and operations on the topics of NumPy, Pandans, Seaborn, matplotlib etc.
