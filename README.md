@@ -46,9 +46,9 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 <img src="https://www.researchgate.net/profile/Carsten_Walther/publication/273456906/figure/fig3/AS:294866065084419@1447312956501/Example-of-hierarchical-clustering-clusters-are-consecutively-merged-with-the-most.png" width="700" height="400"/>
 
 ### Dimensionality reduction
-<img src="https://i.ytimg.com/vi/QP43Iy-QQWY/maxresdefault.jpg" width="450" height="300"/>
-
 * Principal component analysis
+
+<img src="https://i.ytimg.com/vi/QP43Iy-QQWY/maxresdefault.jpg" width="450" height="300"/>
 
 ### Deep Learning/Neural Network
 * Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.
