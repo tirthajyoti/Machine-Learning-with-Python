@@ -1,5 +1,7 @@
 # Python Machine Learning Notebooks
-Essential codes for jump-starting machine learning/data science with Python.
+### Dr. Tirthajyoti Sarkar, Sunnyvale, CA
+
+Essential codes/demo IPYTHON notebooks for jump-starting machine learning/data science with Python.
 
 <img src="http://www.businesscomputingworld.co.uk/wp-content/uploads/2017/12/Machine-Learning.jpg" width="450" height="300"/>
 
