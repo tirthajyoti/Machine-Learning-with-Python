@@ -1,5 +1,5 @@
 # Python Machine Learning Notebooks
-### Dr. Tirthajyoti Sarkar, Sunnyvale, CA
+### Dr. Tirthajyoti Sarkar, Sunnyvale, CA ([You can connect with me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
 
 Essential codes/demo IPYTHON notebooks for jump-starting machine learning/data science with Python.
 
@@ -26,7 +26,7 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 
 * Polynomial regression with how to use ***scikit-learn pipeline feature*** ([check the article I wrote on *Towards Data Science*](https://towardsdatascience.com/machine-learning-with-python-easy-and-robust-method-to-fit-nonlinear-data-19e8a1ddbd49))
 * Decision trees and Random Forest regression (showing how the Random Forest works as a robust/regularized meta-estimator rejecting overfitting)
-
+-----------------------------------------------------------------------------------------------------------------------------------
 ### Classification
 * Logistic regression/classification
 <img src="https://qph.fs.quoracdn.net/main-qimg-914b29e777e78b44b67246b66a4d6d71"/>
@@ -36,7 +36,7 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 * Support vector machine classification (**[check the article I wrote in Towards Data Science on SVM and sorting algorithm](https://towardsdatascience.com/how-the-good-old-sorting-algorithm-helps-a-great-machine-learning-technique-9e744020254b))**
 <img src="https://docs.opencv.org/2.4/_images/optimal-hyperplane.png"/>
 * Naive Bayes classification
-
+---------------------------------------------------------------------------------------------------------------------------------
 ### Clustering
 <img src="https://i.ytimg.com/vi/IJt62uaZR-M/maxresdefault.jpg" width="450" height="300"/>
 
@@ -46,18 +46,16 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 * DBSCAN (showing how it can generically detect areas of high density irrespective of cluster shapes, which the k-means fails to do)
 * Hierarchical clustering with Dendograms showing how to choose optimal number of clusters
 <img src="https://www.researchgate.net/profile/Carsten_Walther/publication/273456906/figure/fig3/AS:294866065084419@1447312956501/Example-of-hierarchical-clustering-clusters-are-consecutively-merged-with-the-most.png" width="700" height="400"/>
-
+---------------------------------------------------------------------------------------------------------------------------------
 ### Dimensionality reduction
 * Principal component analysis
 
 <img src="https://i.ytimg.com/vi/QP43Iy-QQWY/maxresdefault.jpg" width="450" height="300"/>
-
+---------------------------------------------------------------------------------------------------------------------------------
 ### Deep Learning/Neural Network
 * Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.
 * Step-by-step building of 1-hidden-layer and 2-hidden-layer dense network using basic TensorFlow methods 
-
+---------------------------------------------------------------------------------------------------------------------------------
 ## Random data generation using symbolic expressions
 * How to use [Sympy package](https://www.sympy.org/en/index.html) to generate random datasets using symbolic mathematical expressions. Here is my article on Medium on this topic: [Random regression and classification problem generation with symbolic expression](https://towardsdatascience.com/random-regression-and-classification-problem-generation-with-symbolic-expression-a4e190e37b8d)
-
 --------------------------------------------------------------------------------------------------------------------
-**You can [add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7/)**
