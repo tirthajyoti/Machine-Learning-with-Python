@@ -36,7 +36,9 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 * _k_-nearest neighbor classification
 * Decision trees and Random Forest Classification
 * Support vector machine classification (**[check the article I wrote in Towards Data Science on SVM and sorting algorithm](https://towardsdatascience.com/how-the-good-old-sorting-algorithm-helps-a-great-machine-learning-technique-9e744020254b))**
+
 <img src="https://docs.opencv.org/2.4/_images/optimal-hyperplane.png"/>
+
 * Naive Bayes classification
 
 ---
