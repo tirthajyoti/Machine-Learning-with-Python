@@ -26,7 +26,9 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 
 * Polynomial regression with how to use ***scikit-learn pipeline feature*** ([check the article I wrote on *Towards Data Science*](https://towardsdatascience.com/machine-learning-with-python-easy-and-robust-method-to-fit-nonlinear-data-19e8a1ddbd49))
 * Decision trees and Random Forest regression (showing how the Random Forest works as a robust/regularized meta-estimator rejecting overfitting)
+
 -----
+
 ### Classification
 * Logistic regression/classification
 <img src="https://qph.fs.quoracdn.net/main-qimg-914b29e777e78b44b67246b66a4d6d71"/>
