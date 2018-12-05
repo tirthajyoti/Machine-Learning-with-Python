@@ -3,7 +3,7 @@
 
 Essential codes/demo IPYTHON notebooks for jump-starting machine learning/data science with Python.
 
-<img src="http://www.businesscomputingworld.co.uk/wp-content/uploads/2017/12/Machine-Learning.jpg" width="450" height="300"/>
+<img src="https://cookieegroup.com/wp-content/uploads/2018/10/2-1.png" width="450" height="300"/>
 
 You can start with this article that I wrote in Heartbeat magazine (on Medium platform): 
 ### ["Some Essential Hacks and Tricks for Machine Learning with Python"](https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machine-learning-with-python-5478bc6593f2)
