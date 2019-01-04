@@ -63,7 +63,7 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 ---
 
 ### Deep Learning/Neural Network
-* Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.
+* [Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task.[(https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Function%20Approximation%20by%20Neural%20Network/Polynomial%20regression%20-%20linear%20and%20neural%20network.ipynb)
 * Step-by-step building of 1-hidden-layer and 2-hidden-layer dense network using basic TensorFlow methods
 
 ---
