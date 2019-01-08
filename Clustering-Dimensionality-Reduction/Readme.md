@@ -5,3 +5,4 @@
 ### [Affinity propagation technique for clustering](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/Affinity_Propagation.ipynb)
 ### [Mean-shift clustering](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/Mean_Shift_Clustering.ipynb)
 ### [DBscan clustering](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/DBScan_Clustering.ipynb)
+### [Hierarchical clustering, Dendograms](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/Hierarchical_Clustering.ipynb)
