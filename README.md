@@ -1,5 +1,5 @@
 # Python Machine Learning Notebooks (Tutorial style)
-### Dr. Tirthajyoti Sarkar, Sunnyvale, CA ([You can add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
+### Dr. Tirthajyoti Sarkar, Sunnyvale, CA ([Feel free to add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
 
 Essential codes/demo IPython notebooks for jump-starting machine learning/data science.
 
