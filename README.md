@@ -21,12 +21,15 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 * Simple linear regression with t-statistic generation
 <img src="https://slideplayer.com/slide/6053182/20/images/10/Simple+Linear+Regression+Model.jpg" width="400" height="300"/>
 
-* Multiple ways to perform linear regression in Python and their speed comparison ([check the article I wrote on freeCodeCamp](https://medium.freecodecamp.org/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b))
-* Multi-variate regression with regularization
+* [Multiple ways to perform linear regression in Python and their speed comparison](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Linear_Regression_Methods.ipynb) ([check the article I wrote on freeCodeCamp](https://medium.freecodecamp.org/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b))
+
+* [Multi-variate regression with regularization](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Multi-variate%20LASSO%20regression%20with%20CV.ipynb)
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/L1_and_L2_balls.svg/300px-L1_and_L2_balls.svg.png"/>
 
 * Polynomial regression using ***scikit-learn pipeline feature*** ([check the article I wrote on *Towards Data Science*](https://towardsdatascience.com/machine-learning-with-python-easy-and-robust-method-to-fit-nonlinear-data-19e8a1ddbd49))
 * Decision trees and Random Forest regression (showing how the Random Forest works as a robust/regularized meta-estimator rejecting overfitting)
+
+* [Detailed visual analytics and goodness-of-fit diagnostic tests for a linear regression problem](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Regression_Diagnostics.ipynb)
 
 -----
 
