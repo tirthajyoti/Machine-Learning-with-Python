@@ -2,6 +2,18 @@
 ---
 ### Dr. Tirthajyoti Sarkar, Fremont, CA ([Please feel free to add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
 ---
+
+### Requirements
+* **Python 3.4+**
+* **NumPy (`$ pip install numpy`)**
+* **Pandas (`$ pip install pandas`)**
+* **Scikit-learn (`$ pip install scikit-learn`)**
+* **SciPy (`$ pip install scipy`)**
+* **MatplotLib (`$ pip install matplotlib`)**
+* **Seaborn (`$ pip install seaborn`)**
+* **Sympy (`$ pip install sympy`)**
+--
+
 Essential codes/demo IPython notebooks for jump-starting machine learning/data science.
 
 <img src="https://cookieegroup.com/wp-content/uploads/2018/10/2-1.png" width="450" height="300"/>
