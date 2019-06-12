@@ -9,6 +9,7 @@
 * **Pandas (`$ pip install pandas`)**
 * **Scikit-learn (`$ pip install scikit-learn`)**
 * **SciPy (`$ pip install scipy`)**
+* **Statsmodels (`$ pip install statsmodels`)**
 * **MatplotLib (`$ pip install matplotlib`)**
 * **Seaborn (`$ pip install seaborn`)**
 * **Sympy (`$ pip install sympy`)**
