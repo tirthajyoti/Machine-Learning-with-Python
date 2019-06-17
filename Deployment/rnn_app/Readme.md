@@ -1,10 +1,11 @@
-## Web-app generating text based on a trained Recurrent Neural Net (RNN) model
+## Web-app generating patent abstract like text using a Recurrent Neural Net (RNN)
 
 ### Requirements
 * keras
 * TensorFlow
 * Numpy
-* wtforms
+* [wtforms](https://wtforms.readthedocs.io/en/stable/)
+* json
 
 ---
 
