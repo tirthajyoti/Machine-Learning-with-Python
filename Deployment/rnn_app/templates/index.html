@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RNN Patent Writing</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="shortcut icon" href="/static/images/lstm.ico">
+  
+</head>
+
+<body>
+  <div class="container">
+    <h1>
+      <center>Writing Novel Patent Abstracts with Recurrent Neural Networks</center>
+    </h1>
+
+    {% block content %}
+    {% for message in form.seed.errors %}
+    <div class="flash">{{ message }}</div>
+    {% endfor %}
+
+    {% for message in form.diversity.errors %}
+    <div class="flash">{{ message }}</div>
+    {% endfor %}
+
+    {% for message in form.words.errors %}
+    <div class="flash">{{ message }}</div>
+    {% endfor %}
+
+    <form method=post>
+
+      {{ form.seed.label }}
+      {{ form.seed }}
+
+      {{ form.diversity.label }}
+      {{ form.diversity }}
+
+      {{ form.words.label }}
+      {{ form.words }}
+
+      {{ form.submit }}
+    </form>
+    {% endblock %}
+
+  </div>
+</body>
+
+</html>
