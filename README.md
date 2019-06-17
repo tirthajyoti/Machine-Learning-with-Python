@@ -7,7 +7,7 @@ Essential codes/demo IPython notebooks for jump-starting machine learning/data s
 ---
 
 ### Requirements
-* **Python 3.4+**
+* **Python 3.5+**
 * **NumPy (`$ pip install numpy`)**
 * **Pandas (`$ pip install pandas`)**
 * **Scikit-learn (`$ pip install scikit-learn`)**
