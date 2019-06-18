@@ -12,7 +12,8 @@
 ---
 
 ### How to run
-Clone/copy all the files in this folder into a single folder on your computer and run.
+I assume that you already have Python 3.6+ installed on your machine.<br>
+Clone/copy all the files in this folder into a single folder on your computer.
 
 **`$ pip install requirements.txt`**
 
