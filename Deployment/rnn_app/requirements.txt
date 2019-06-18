@@ -1,0 +1,12 @@
+numpy==1.16.3
+pandas==0.24.2
+
+requests==2.22.0
+
+scikit-learn==0.21.2
+dill==0.2.9
+flask==1.0.3
+jinja2==2.10.1
+wtforms==2.2.1
+keras=2.2.4
+tensorflow=1.13.1
