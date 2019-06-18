@@ -1,3 +1,7 @@
+#########################################
+# Model Training file 
+#########################################
+"""
 import numpy as np
 import pandas as pd
 
@@ -62,8 +66,6 @@ print("R-squared value of this fit (on the training set):",round(metrics.r2_scor
 test_score=lm.score(X_test,y_test)
 print("Test score: ",round(test_score,3))
 print()
-
-print(X_test.head())
 
 # Main (model saving in pickle format)
 if __name__ == '__main__':
