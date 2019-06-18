@@ -14,6 +14,10 @@
 ### How to run
 Clone/copy all the files in this folder into a single folder on your computer and run.
 
+**`$ pip install requirements.txt`**
+
+Then,
+
 **`$ python keras_server.py`**
 
 ### Source
