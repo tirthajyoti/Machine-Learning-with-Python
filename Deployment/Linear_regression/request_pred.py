@@ -7,6 +7,8 @@ header = {'Content-Type': 'application/json', 'Accept': 'application/json'}
 
 # Read test dataset
 test_df = pd.read_csv("data/housing_test.csv")
+# For demo purpose, only 6 data points are passed on to the prediction server endpoint.
+# Feel free to change this index or use the whole test dataset
 test_df = test_df.iloc[40:46]
 
 # Drop the first column
