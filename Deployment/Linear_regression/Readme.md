@@ -1,7 +1,7 @@
 ## How to serve a linear regression model on a web API using Flask and Gunicorn
 #### Run the training script,
 
-`$ python training_housing.py`
+**`$ python training_housing.py`**
 
 This would do the following,
 * Read the dataset from the `/data/USA_housing.csv`
@@ -11,13 +11,13 @@ This would do the following,
 
 #### Fire up the gunicorn server by running,
 
-`$ gunicorn --bind 0.0.0.0:5000 server_lm:app`
+**`$ gunicorn --bind 0.0.0.0:5000 server_lm:app`**
 
 This will start the HTTP server interface and run an `/predict` API endpoint.<br>
 The exact address of this API is `http://0.0.0.0:5000/predict`.<br>
 We can take advantage of this endpoint by passing data to it in JSON format. To accomplish this, run,
 
-`$ python request_pred.py`
+**`$ python request_pred.py`**
 
 This should print the predicted values on your terminal.
 
