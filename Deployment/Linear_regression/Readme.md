@@ -1,5 +1,10 @@
 ## How to serve a linear regression model on a web API using Flask and Gunicorn
-Clone/copy all the files in this folder into a single folder on your computer and follow the steps below,
+Clone/copy all the files in this folder into a single folder on your computer.
+#### Install required libraries
+
+**`$ pip install requirements.txt`**
+
+Then follow the steps below,
 
 #### Run the training script,
 
