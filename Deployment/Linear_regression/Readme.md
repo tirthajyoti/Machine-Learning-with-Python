@@ -1,5 +1,7 @@
 ## How to serve a linear regression model on a web API using Flask and Gunicorn
+I assume that you already have Python 3.6+ installed on your machine.<br>
 Clone/copy all the files in this folder into a single folder on your computer.
+
 #### Install required libraries
 
 **`$ pip install requirements.txt`**
