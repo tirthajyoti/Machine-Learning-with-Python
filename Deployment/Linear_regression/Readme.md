@@ -13,7 +13,9 @@ This would do the following,
 
 `$ gunicorn --bind 0.0.0.0:5000 server_lm:app`
 
-This will start the HTTP server interface and run an `/predict` API endpoint. We can take advantage of this endpoint by passing data to it in JSON format. To accomplish this, run,
+This will start the HTTP server interface and run an `/predict` API endpoint.<br>
+The exact address of this API is `http://0.0.0.0:5000/predict`.<br>
+We can take advantage of this endpoint by passing data to it in JSON format. To accomplish this, run,
 
 `$ python request_pred.py`
 
