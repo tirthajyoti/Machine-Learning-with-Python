@@ -33,7 +33,7 @@ We can take advantage of this endpoint by passing data to it in JSON format.
 This should print the predicted values on your terminal.
 
 #### Note 
-For demo purpose, only 6 data points are passed on to the prediction server. **If you want to get preditcions for more points, simply edit the index in the following code segment in the `request_pred.py`.**
+For demo purpose, only 6 data points are passed on to the prediction server. **If you want to get preditcions for more points, simply edit the index of the `test_df` DataFrame in the following code segment in the `request_pred.py`.**
 
 ```
 # Read test dataset
