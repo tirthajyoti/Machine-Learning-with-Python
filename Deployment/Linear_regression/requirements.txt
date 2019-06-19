@@ -1,0 +1,6 @@
+numpy==1.16.3
+pandas==0.24.2
+requests==2.22.0
+scikit-learn==0.21.2
+dill==0.2.9
+flask==1.0.3
