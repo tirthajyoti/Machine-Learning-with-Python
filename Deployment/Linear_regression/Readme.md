@@ -24,7 +24,9 @@ This would do the following,
 
 This will start the HTTP server interface and run an `/predict` API endpoint.<br>
 The exact address of this API is `http://localhost:5000/predict`.<br>
-We can take advantage of this endpoint by passing data to it in JSON format. 
+
+But we do not need to open any browser.
+We will take advantage of this endpoint by passing data to it in JSON format from another script. 
 
 #### Run the script sending test data to the API and requesting predictions
 
