@@ -23,7 +23,7 @@ This would do the following,
 **`$ gunicorn --bind 0.0.0.0:5000 server_lm:app`**
 
 This will start the HTTP server interface and run an `/predict` API endpoint.<br>
-The exact address of this API is `http://0.0.0.0:5000/predict`.<br>
+The exact address of this API is `http://localhost:5000/predict`.<br>
 We can take advantage of this endpoint by passing data to it in JSON format. 
 
 #### Run the script sending test data to the API and requesting predictions
