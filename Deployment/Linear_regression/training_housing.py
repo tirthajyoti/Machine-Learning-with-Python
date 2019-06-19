@@ -12,12 +12,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 
-data_filename = 'USA_Housing.csv'
+data_filename = 'USA_housing.csv'
 cwd = os.getcwd()
 
 # Checks if the dataset is in the local '/data' folder
 # If not present, pulls from Github repo, otherwise reads from the local folder
-if 'data' not in os.listdir() or data_filename not in os.listdir("data/"):
+if not os.path.isdir(cwd+"/data") or data_filename not in os.listdir(cwd+"/data"):
 	url="https://raw.githubusercontent.com/tirthajyoti/Machine-Learning-with-Python/master/Datasets/USA_Housing.csv"
 	print("Downloading data from {} ".format(url))
 	s=requests.get(url).content
@@ -25,11 +25,12 @@ if 'data' not in os.listdir() or data_filename not in os.listdir("data/"):
 	df = pd.read_csv(io.StringIO(s.decode('utf-8')))
 	print("Dataset is downloaded.")
 	# Save the data in local '/data' folder
-	os.makedirs(cwd+"/data")
+	if not os.path.isdir(cwd+"/data"):
+		os.makedirs(cwd+"/data")
 	df.to_csv("data/USA_housing.csv")
 	print()
 else:
-	df = pd.read_csv("data/USA_Housing.csv")
+	df = pd.read_csv("data/USA_housing.csv")
 	print("Dataset loaded from local directory")
 	print()
 
