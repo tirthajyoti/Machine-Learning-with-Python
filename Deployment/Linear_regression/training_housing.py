@@ -1,7 +1,3 @@
-#########################################
-# Model Training file 
-#########################################
-"""
 import numpy as np
 import pandas as pd
 
@@ -12,18 +8,30 @@ import requests
 
 import dill as pickle
 
-#from sklearn.externals import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 
-url="https://raw.githubusercontent.com/tirthajyoti/Machine-Learning-with-Python/master/Datasets/USA_Housing.csv"
-s=requests.get(url).content
+data_filename = 'USA_Housing.csv'
+cwd = os.getcwd()
 
-df = pd.read_csv(io.StringIO(s.decode('utf-8')))
-print("Dataset is loaded from the URL: {}".format(url))
-#print(df.head())
-print()
+# Checks if the dataset is in the local '/data' folder
+# If not present, pulls from Github repo, otherwise reads from the local folder
+if 'data' not in os.listdir() or data_filename not in os.listdir("data/"):
+	url="https://raw.githubusercontent.com/tirthajyoti/Machine-Learning-with-Python/master/Datasets/USA_Housing.csv"
+	print("Downloading data from {} ".format(url))
+	s=requests.get(url).content
+
+	df = pd.read_csv(io.StringIO(s.decode('utf-8')))
+	print("Dataset is downloaded.")
+	# Save the data in local '/data' folder
+	os.makedirs(cwd+"/data")
+	df.to_csv("data/USA_housing.csv")
+	print()
+else:
+	df = pd.read_csv("data/USA_Housing.csv")
+	print("Dataset loaded from local directory")
+	print()
 
 # Make a list of data frame column names
 l_column = list(df.columns) # Making a list out of column names
@@ -34,9 +42,9 @@ len_feature = len(l_column) # Length of column vector list
 X = df[l_column[0:len_feature-2]]
 y = df[l_column[len_feature-2]]
 
-print("Feature set size:",X.shape)
-print("Variable set size:",y.shape)
-print()
+#print("Feature set size:",X.shape)
+#print("Variable set size:",y.shape)
+#print()
 print("Features variables: ",l_column[0:len_feature-2])
 print()
 
@@ -63,18 +71,27 @@ print()
 train_pred=lm.predict(X_train)
 print("R-squared value of this fit (on the training set):",round(metrics.r2_score(y_train,train_pred),3))
 # Test score
-test_score=lm.score(X_test,y_test)
-print("Test score: ",round(test_score,3))
+#test_score=lm.score(X_test,y_test)
+#print("Test score: ",round(test_score,3))
 print()
 
-# Main (model saving in pickle format)
+# Main
+# Trains and saves the model in a serialized format
+# If either the data or models directory does not exist, creates them
+# Saves test data in a CSV file in a local '/data' folder
 if __name__ == '__main__':
 	filename = 'lm_model_v1.pk'
 	print("Now saving the model to a serialized format (pickle)...")
+	if not os.path.isdir(cwd+"/models"):
+		os.makedirs(cwd+"/models")
 	with open('models/'+filename, 'wb') as file:
 		pickle.dump(lm, file)
 	# Save some of the test data in a CSV
 	print("Saving test data to a file...")
 	print()
-	X_test.to_csv("data/housing_test.csv")
+	if os.path.isdir(cwd+"/data"):
+		X_test.to_csv("data/housing_test.csv")
+	else:
+		os.makedirs(cwd+"/data")
+		X_test.to_csv("data/housing_test.csv")
 	
