@@ -1,19 +1,15 @@
-
-# coding: utf-8
-
-# Evaluate a polynomial string
+from sympy import sympify, Symbol
+import numpy as np
 
 def symbolize(s):
     """
     Converts a a string (equation) to a SymPy symbol object
     """
-    from sympy import sympify
     s1=s.replace('.','*')
     s2=s1.replace('^','**')
     s3=sympify(s2)
     
     return(s3)
-
 
 def eval_multinomial(s,vals=None,symbolic_eval=False):
     """
@@ -21,7 +17,6 @@ def eval_multinomial(s,vals=None,symbolic_eval=False):
     vals can be simple list, dictionary, or tuple of values.
     vals can also contain symbols instead of real values provided those symbols have been declared before using SymPy
     """
-    from sympy import Symbol
     sym_s=symbolize(s)
     sym_set=sym_s.atoms(Symbol)
     sym_lst=[]
@@ -47,11 +42,10 @@ def eval_multinomial(s,vals=None,symbolic_eval=False):
     
     return result
 
-
-# ### Helper function for flipping binary values of a _ndarray_
-
 def flip(y,p):
-    import numpy as np
+    """
+    Flips random bit (used to make a classification problem haredr)
+    """
     lst=[]
     for i in range(len(y)):
         f=np.random.choice([1,0],p=[p,1-p])
@@ -59,8 +53,6 @@ def flip(y,p):
     lst=np.array(lst)
     return np.array(np.logical_xor(y,lst),dtype=int)
 
-
-# ### Classification sample generation based on a symbolic expression
 
 def gen_classification_symbolic(m=None,n_samples=100,n_features=2,flip_y=0.0):
     """
@@ -76,9 +68,6 @@ def gen_classification_symbolic(m=None,n_samples=100,n_features=2,flip_y=0.0):
             the classification problem harder.
     Returns a numpy ndarray with dimension (n_samples,n_features+1). Last column is the response vector.
     """
-    
-    import numpy as np
-    from sympy import Symbol,sympify
     
     if m==None:
         m=''
@@ -110,8 +99,6 @@ def gen_classification_symbolic(m=None,n_samples=100,n_features=2,flip_y=0.0):
     
     return (x)
 
-# ### Regression sample generation based on a symbolic expression
-
 
 def gen_regression_symbolic(m=None,n_samples=100,n_features=2,noise=0.0,noise_dist='normal'):
     """
@@ -128,9 +115,6 @@ def gen_regression_symbolic(m=None,n_samples=100,n_features=2,noise=0.0,noise_di
 
     Returns a numpy ndarray with dimension (n_samples,n_features+1). Last column is the response vector.
     """
-    
-    import numpy as np
-    from sympy import Symbol,sympify
     
     if m==None:
         m=''
