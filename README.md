@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+
 # Python Machine Learning Notebooks (Tutorial style)
 
 Essential codes/demo IPython notebooks for jump-starting machine learning/data science.
