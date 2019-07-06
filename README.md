@@ -2,9 +2,6 @@
 
 # Python Machine Learning Notebooks (Tutorial style)
 
-Essential codes/demo IPython notebooks for jump-starting machine learning/data science.
-
----
 ### Dr. Tirthajyoti Sarkar, Fremont, CA ([Please feel free to add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
 ---
 
