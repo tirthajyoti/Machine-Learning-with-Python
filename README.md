@@ -1,4 +1,6 @@
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![GitHub forks](https://img.shields.io/github/forks/tirthajyoti/Machine-Learning-with-Python.svg)](https://github.com/tirthajyoti/Machine-Learning-with-Python/network)
+[![GitHub stars](https://img.shields.io/github/stars/tirthajyoti/Machine-Learning-with-Python.svg)](https://github.com/tirthajyoti/Machine-Learning-with-Python/stargazers)
 
 # Python Machine Learning Notebooks (Tutorial style)
 
