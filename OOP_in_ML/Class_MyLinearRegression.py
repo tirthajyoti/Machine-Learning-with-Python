@@ -2,7 +2,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class Metrics:
-              
+    """
+    Class with regression metrics
+    sse: Sum of squared errors
+    sst: Total sum of squared errors (actual vs avg(actual))
+    r_squared: Regression coefficient (R^2)
+    adj_r_squared: Adjusted R^2
+    mse: Mean sum of squared errors
+    """
     def sse(self):
         '''returns sum of squared errors (model vs actual)'''
         squared_errors = (self.resid_) ** 2
