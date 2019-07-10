@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 
 class Metrics:
     """
-    Class with regression metrics
+    Methods for computing useful regression metrics
+    
     sse: Sum of squared errors
     sst: Total sum of squared errors (actual vs avg(actual))
     r_squared: Regression coefficient (R^2)
@@ -48,7 +49,15 @@ class Metrics:
 
 
 class Diagnostics_plots:
+    """
+    Diagnostics plots and methods
     
+    fitted_vs_residual: Plots fitted values vs. residuals
+    fitted_vs_features: Plots residuals vs all feature variables in a grid
+    histogram_resid: Plots a histogram of the residuals (can be normalized)
+    shapiro_test: Performs Shapiro-Wilk normality test on the residuals
+    qqplot_resid: Creates a quantile-quantile plot for residuals comparing with a normal distribution    
+    """
     def __init__():
         pass
     
@@ -123,7 +132,12 @@ class Diagnostics_plots:
 
 
 class Data_plots:
+    """
+    Methods for data related plots
     
+    pairplot: Creates pairplot of all variables and the target
+    plot_fitted: Plots fitted values against the true output values from the data
+    """
     def __init__():
         pass
     
@@ -155,7 +169,13 @@ class Data_plots:
 
 
 class Outliers:
+    """
+    Methods for plotting outliers, leverage, influence points
     
+    cook_distance: Computes and plots Cook's distance
+    influence_plot: Creates the influence plot
+    leverage_resid_plot: Plots leverage vs normalized residuals' square
+    """
     def __init__():
         pass
     
@@ -190,7 +210,11 @@ class Outliers:
 
 
 class Multicollinearity:
+    """
+    Methods for checking multicollinearity in the dataset features
     
+    vif:Computes variance influence factors for each feature variable
+    """
     def __init__():
         pass
     
@@ -216,7 +240,6 @@ class MyLinearRegression(Metrics, Diagnostics_plots,Data_plots,Outliers,Multicol
     def fit(self, X, y):
         """
         Fit model coefficients.
-
         Arguments:
         X: 1D or 2D numpy array 
         y: 1D numpy array
@@ -264,7 +287,6 @@ class MyLinearRegression(Metrics, Diagnostics_plots,Data_plots,Outliers,Multicol
     
     def predict(self, X):
         """Output model prediction.
-
         Arguments:
         X: 1D or 2D numpy array
         """
