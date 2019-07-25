@@ -96,6 +96,8 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 
 * [Serving a recurrent neural network (RNN) through a HTTP webpage](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment/rnn_app), complete with a web form, where users can input parameters and click a button to generate text based on the pre-trained RNN model. Uses `Flask`, `Jinja`, `Keras`/`TensorFlow`, `WTForms`.
 
+---
+
 ### Object-oriented programming with machine learning
 Implementing some of the core OOP principles in a machine learning context by [building your own Scikit-learn-like estimator, and making it better](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/OOP_in_ML/Class_MyLinearRegression.ipynb).
 
