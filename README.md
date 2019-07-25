@@ -91,7 +91,7 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 * Here is my article on Medium on this topic: [Random regression and classification problem generation with symbolic expression](https://towardsdatascience.com/random-regression-and-classification-problem-generation-with-symbolic-expression-a4e190e37b8d)
 ---
 
-### [Simple deployment examples (serving ML models on web API)](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment)
-* Serving a linear regression model through a simple HTTP server interface. User needs to request predictions by executing a Python script. Uses `Flask` and `Gunicorn`.
+### Simple deployment examples (serving ML models on web API)
+* [Serving a linear regression model through a simple HTTP server interface](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment/Linear_regression). User needs to request predictions by executing a Python script. Uses `Flask` and `Gunicorn`.
 
-* Serving a recurrent neural network (RNN) through a HTTP webpage, complete with a web form, where users can input parameters and click a button to generate text based on the pre-trained RNN model. Uses `Flask`, `Jinja`, `Keras`/`TensorFlow`, `WTForms`.
+* [Serving a recurrent neural network (RNN) through a HTTP webpage](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment/rnn_app), complete with a web form, where users can input parameters and click a button to generate text based on the pre-trained RNN model. Uses `Flask`, `Jinja`, `Keras`/`TensorFlow`, `WTForms`.
