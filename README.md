@@ -95,3 +95,12 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 * [Serving a linear regression model through a simple HTTP server interface](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment/Linear_regression). User needs to request predictions by executing a Python script. Uses `Flask` and `Gunicorn`.
 
 * [Serving a recurrent neural network (RNN) through a HTTP webpage](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment/rnn_app), complete with a web form, where users can input parameters and click a button to generate text based on the pre-trained RNN model. Uses `Flask`, `Jinja`, `Keras`/`TensorFlow`, `WTForms`.
+
+### Object-oriented programming with machine learning
+Implementing some of the core OOP principles in a machine learning context by [building your own Scikit-learn-like estimator, and making it better](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/OOP_in_ML/Class_MyLinearRegression.ipynb).
+
+See my articles on Medium on this topic.
+
+* [Object-oriented programming for data scientists: Build your ML estimator](https://towardsdatascience.com/object-oriented-programming-for-data-scientists-build-your-ml-estimator-7da416751f64)
+* [How a simple mix of object-oriented programming can sharpen your deep learning prototype](https://towardsdatascience.com/how-a-simple-mix-of-object-oriented-programming-can-sharpen-your-deep-learning-prototype-19893bd969bd)
+
