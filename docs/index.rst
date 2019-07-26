@@ -139,7 +139,7 @@ Dimensionality reduction
 --------------
 
 Deep Learning/Neural Network
-----------------------------
+==============================
 
 -  `Demo notebook to illustrate the superiority of deep neural network
    for complex nonlinear function approximation
