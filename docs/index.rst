@@ -51,9 +51,9 @@ the topics of NumPy, Pandans, Seaborn, matplotlib etc.
 Regression
 ----------
 .. image:: https://slideplayer.com/slide/6053182/20/images/10/Simple+Linear+Regression+Model.jpg
-   :width: 200px
+   :width: 400px
    :align: center
-   :height: 100px
+   :height: 300px
    :alt: alternate text
 
 -  Simple linear regression with t-statistic generation
@@ -83,6 +83,10 @@ Classification
 --------------
 
 .. image:: https://qph.fs.quoracdn.net/main-qimg-914b29e777e78b44b67246b66a4d6d71
+   :width: 400px
+   :align: center
+   :height: 300px
+   :alt: alternate text
 
 -  Logistic regression/classification
 
@@ -100,6 +104,10 @@ Clustering
 ----------
 
 .. image:: https://i.ytimg.com/vi/IJt62uaZR-M/maxresdefault.jpg
+   :width: 400px
+   :align: center
+   :height: 300px
+   :alt: alternate text
 
 -  *K*-means clustering
 -  Affinity propagation (showing its time complexity and the effect of
@@ -117,9 +125,10 @@ Dimensionality reduction
 ------------------------
 
 .. image:: https://i.ytimg.com/vi/QP43Iy-QQWY/maxresdefault.jpg
-    :width: 200px
-    :align: center
-    :height: 100px
+   :width: 400px
+   :align: center
+   :height: 300px
+   :alt: alternate text
 
 -  Principal component analysis
 
