@@ -1,12 +1,13 @@
 .. image:: https://readthedocs.org/projects/machine-learning-with-python/badge/?version=latest
    :width: 15 %
 .. image:: https://img.shields.io/badge/License-BSD%202--Clause-orange.svg
-   :width: 20 %
+   :width: 22 %
 .. image:: https://img.shields.io/github/forks/tirthajyoti/Machine-Learning-with-Python.svg
-   :width: 15 %
+   :width: 13 %
 .. image:: https://img.shields.io/github/stars/tirthajyoti/Machine-Learning-with-Python.svg
-   :width: 15 %
+   :width: 13 %
    
+|
    
 Python Machine Learning Notebooks (Tutorial style)
 ==================================================
