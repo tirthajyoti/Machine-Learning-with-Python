@@ -32,7 +32,7 @@ Python” <https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machin
 .. image:: https://cookieegroup.com/wp-content/uploads/2018/10/2-1.png"
    :width: 500px
    :align: center
-   :height: 400px
+   :height: 350px
    :alt: alternate text
 
 Essential tutorial-type notebooks on Pandas and Numpy
@@ -87,9 +87,9 @@ Classification
 ===============
 
 .. image:: https://qph.fs.quoracdn.net/main-qimg-914b29e777e78b44b67246b66a4d6d71
-   :width: 400px
+   :width: 500px
    :align: center
-   :height: 300px
+   :height: 350px
    :alt: alternate text
 
 -  Logistic regression/classification
@@ -108,9 +108,9 @@ Clustering
 ===============
 
 .. image:: https://i.ytimg.com/vi/IJt62uaZR-M/maxresdefault.jpg
-   :width: 400px
+   :width: 500px
    :align: center
-   :height: 300px
+   :height: 350px
    :alt: alternate text
 
 -  *K*-means clustering
@@ -129,9 +129,9 @@ Dimensionality reduction
 ===========================
 
 .. image:: https://i.ytimg.com/vi/QP43Iy-QQWY/maxresdefault.jpg
-   :width: 400px
+   :width: 500px
    :align: center
-   :height: 300px
+   :height: 350px
    :alt: alternate text
 
 -  Principal component analysis
