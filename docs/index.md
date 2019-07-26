@@ -29,6 +29,7 @@ You can start with this article that I wrote in Heartbeat magazine (on Medium pl
 ## Essential tutorial-type notebooks on Pandas and Numpy
 
 Jupyter notebooks covering a wide range of functions and operations on the topics of NumPy, Pandans, Seaborn, matplotlib etc.
+
 * **[Basics of Numpy array](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Numpy%20arrays.ipynb)**
 
 * **[Basics of Pandas DataFrame](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Pandas%20DataFrame.ipynb)**
@@ -40,6 +41,7 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 ## Regression
 
 * Simple linear regression with t-statistic generation
+
 <img src="https://slideplayer.com/slide/6053182/20/images/10/Simple+Linear+Regression+Model.jpg" width="400" height="300"/>
 
 * [Multiple ways to perform linear regression in Python and their speed comparison](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Linear_Regression_Methods.ipynb) ([check the article I wrote on freeCodeCamp](https://medium.freecodecamp.org/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b))
