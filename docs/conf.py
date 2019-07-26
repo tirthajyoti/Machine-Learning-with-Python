@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'python-ml'
+project = 'Machine-Learning-with-Python'
 copyright = '2019, Tirthajyoti Sarkar'
 author = 'Tirthajyoti Sarkar'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.5'
+# release = '1.0.5'
 
 
 # -- General configuration ---------------------------------------------------
