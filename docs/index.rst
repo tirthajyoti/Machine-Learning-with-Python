@@ -10,22 +10,26 @@ here <https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7>`__)
 Requirements
 ------------
 
--  **Python 3.5+**
--  **NumPy (``$ pip install numpy``)**
--  **Pandas (``$ pip install pandas``)**
--  **Scikit-learn (``$ pip install scikit-learn``)**
--  **SciPy (``$ pip install scipy``)**
--  **Statsmodels (``$ pip install statsmodels``)**
--  **MatplotLib (``$ pip install matplotlib``)**
--  **Seaborn (``$ pip install seaborn``)**
--  **Sympy (``$ pip install sympy``)**
+-  Python 3.5+
+-  NumPy (``$ pip install numpy``)
+-  Pandas (``$ pip install pandas``)
+-  Scikit-learn (``$ pip install scikit-learn``)
+-  SciPy (``$ pip install scipy``)
+-  Statsmodels (``$ pip install statsmodels``)
+-  MatplotLib (``$ pip install matplotlib``)
+-  Seaborn (``$ pip install seaborn``)
+-  Sympy (``$ pip install sympy``)
 
 --------------
 
 You can start with this article that I wrote in Heartbeat magazine (on
-Medium platform): `“Some Essential Hacks and Tricks for Machine Learning
+Medium platform): 
+
+`“Some Essential Hacks and Tricks for Machine Learning
 with
 Python” <https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machine-learning-with-python-5478bc6593f2>`__
+
+.. image:: https://cookieegroup.com/wp-content/uploads/2018/10/2-1.png"
 
 Essential tutorial-type notebooks on Pandas and Numpy
 -----------------------------------------------------
@@ -33,19 +37,24 @@ Essential tutorial-type notebooks on Pandas and Numpy
 Jupyter notebooks covering a wide range of functions and operations on
 the topics of NumPy, Pandans, Seaborn, matplotlib etc.
 
--  **`Basics of Numpy
-   array <https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Numpy%20arrays.ipynb>`__**
+-  `Basics of Numpy
+   array <https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Numpy%20arrays.ipynb>`__
 
--  **`Basics of Pandas
-   DataFrame <https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Pandas%20DataFrame.ipynb>`__**
+-  `Basics of Pandas
+   DataFrame <https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Pandas%20DataFrame.ipynb>`__
 
--  **`Basics of Matplotlib and Descriptive
-   Statistics <https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Matplotlib%20and%20Descriptive%20Statistics.ipynb>`__**
+-  `Basics of Matplotlib and Descriptive
+   Statistics <https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Matplotlib%20and%20Descriptive%20Statistics.ipynb>`__
 
 --------------
 
 Regression
 ----------
+.. image:: https://slideplayer.com/slide/6053182/20/images/10/Simple+Linear+Regression+Model.jpg
+   :width: 200px
+   :align: center
+   :height: 100px
+   :alt: alternate text
 
 -  Simple linear regression with t-statistic generation
 
@@ -73,13 +82,15 @@ Regression
 Classification
 --------------
 
+.. image:: https://qph.fs.quoracdn.net/main-qimg-914b29e777e78b44b67246b66a4d6d71
+
 -  Logistic regression/classification
 
 -  *k*-nearest neighbor classification
 -  Decision trees and Random Forest Classification
--  Support vector machine classification (**`check the article I wrote
+-  Support vector machine classification (`check the article I wrote
    in Towards Data Science on SVM and sorting
-   algorithm <https://towardsdatascience.com/how-the-good-old-sorting-algorithm-helps-a-great-machine-learning-technique-9e744020254b>`__)**
+   algorithm <https://towardsdatascience.com/how-the-good-old-sorting-algorithm-helps-a-great-machine-learning-technique-9e744020254b>`__)
 
 -  Naive Bayes classification
 
@@ -87,6 +98,8 @@ Classification
 
 Clustering
 ----------
+
+.. image:: https://i.ytimg.com/vi/IJt62uaZR-M/maxresdefault.jpg
 
 -  *K*-means clustering
 -  Affinity propagation (showing its time complexity and the effect of
@@ -102,6 +115,11 @@ Clustering
 
 Dimensionality reduction
 ------------------------
+
+.. image:: https://i.ytimg.com/vi/QP43Iy-QQWY/maxresdefault.jpg
+    :width: 200px
+    :align: center
+    :height: 100px
 
 -  Principal component analysis
 
