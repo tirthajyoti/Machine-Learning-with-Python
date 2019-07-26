@@ -4,10 +4,10 @@
 
 # Python Machine Learning Notebooks (Tutorial style)
 
-### Dr. Tirthajyoti Sarkar, Fremont, CA ([Please feel free to add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
+Dr. Tirthajyoti Sarkar, Fremont, CA ([Please feel free to add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
 ---
 
-### Requirements
+## Requirements
 * **Python 3.5+**
 * **NumPy (`$ pip install numpy`)**
 * **Pandas (`$ pip install pandas`)**
@@ -19,7 +19,7 @@
 * **Sympy (`$ pip install sympy`)**
 ---
 You can start with this article that I wrote in Heartbeat magazine (on Medium platform): 
-### ["Some Essential Hacks and Tricks for Machine Learning with Python"](https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machine-learning-with-python-5478bc6593f2)
+* ["Some Essential Hacks and Tricks for Machine Learning with Python"](https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machine-learning-with-python-5478bc6593f2)
 <img src="https://cookieegroup.com/wp-content/uploads/2018/10/2-1.png" width="450" height="300"/>
 
 ## Essential tutorial-type notebooks on Pandas and Numpy
@@ -28,9 +28,7 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 * **[Basics of Pandas DataFrame](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Pandas%20DataFrame.ipynb)**
 * **[Basics of Matplotlib and Descriptive Statistics](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Matplotlib%20and%20Descriptive%20Statistics.ipynb)**
 
-## Tutorial-type notebooks covering regression, classification, clustering, dimensionality reduction, and some basic neural network algorithms
-
-### Regression
+## Regression
 * Simple linear regression with t-statistic generation
 <img src="https://slideplayer.com/slide/6053182/20/images/10/Simple+Linear+Regression+Model.jpg" width="400" height="300"/>
 
@@ -44,9 +42,9 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 
 * [Detailed visual analytics and goodness-of-fit diagnostic tests for a linear regression problem](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Regression_Diagnostics.ipynb)
 
------
+----
 
-### Classification
+## Classification
 * Logistic regression/classification
 <img src="https://qph.fs.quoracdn.net/main-qimg-914b29e777e78b44b67246b66a4d6d71"/>
 
@@ -60,7 +58,7 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 
 ---
 
-### Clustering
+## Clustering
 <img src="https://i.ytimg.com/vi/IJt62uaZR-M/maxresdefault.jpg" width="450" height="300"/>
 
 * _K_-means clustering
@@ -72,33 +70,33 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 
 ---
 
-### Dimensionality reduction
+## Dimensionality reduction
 * Principal component analysis
 
 <img src="https://i.ytimg.com/vi/QP43Iy-QQWY/maxresdefault.jpg" width="450" height="300"/>
 
 ---
 
-### Deep Learning/Neural Network
+## Deep Learning/Neural Network
 * [Demo notebook to illustrate the superiority of deep neural network for complex nonlinear function approximation task](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Function%20Approximation%20by%20Neural%20Network/Polynomial%20regression%20-%20linear%20and%20neural%20network.ipynb)
 * Step-by-step building of 1-hidden-layer and 2-hidden-layer dense network using basic TensorFlow methods
 
 ---
 
-### Random data generation using symbolic expressions
+## Random data generation using symbolic expressions
 * How to use [Sympy package](https://www.sympy.org/en/index.html) to generate random datasets using symbolic mathematical expressions.
 
 * Here is my article on Medium on this topic: [Random regression and classification problem generation with symbolic expression](https://towardsdatascience.com/random-regression-and-classification-problem-generation-with-symbolic-expression-a4e190e37b8d)
 ---
 
-### Simple deployment examples (serving ML models on web API)
+## Simple deployment examples (serving ML models on web API)
 * [Serving a linear regression model through a simple HTTP server interface](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment/Linear_regression). User needs to request predictions by executing a Python script. Uses `Flask` and `Gunicorn`.
 
 * [Serving a recurrent neural network (RNN) through a HTTP webpage](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment/rnn_app), complete with a web form, where users can input parameters and click a button to generate text based on the pre-trained RNN model. Uses `Flask`, `Jinja`, `Keras`/`TensorFlow`, `WTForms`.
 
 ---
 
-### Object-oriented programming with machine learning
+## Object-oriented programming with machine learning
 Implementing some of the core OOP principles in a machine learning context by [building your own Scikit-learn-like estimator, and making it better](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/OOP_in_ML/Class_MyLinearRegression.ipynb).
 
 See my articles on Medium on this topic.
