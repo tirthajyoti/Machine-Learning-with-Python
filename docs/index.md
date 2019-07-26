@@ -5,9 +5,11 @@
 # Python Machine Learning Notebooks (Tutorial style)
 
 Dr. Tirthajyoti Sarkar, Fremont, CA ([Please feel free to add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
+
 ---
 
 ## Requirements
+
 * **Python 3.5+**
 * **NumPy (`$ pip install numpy`)**
 * **Pandas (`$ pip install pandas`)**
@@ -17,7 +19,9 @@ Dr. Tirthajyoti Sarkar, Fremont, CA ([Please feel free to add me on LinkedIn her
 * **MatplotLib (`$ pip install matplotlib`)**
 * **Seaborn (`$ pip install seaborn`)**
 * **Sympy (`$ pip install sympy`)**
+
 ---
+
 You can start with this article that I wrote in Heartbeat magazine (on Medium platform): 
 * ["Some Essential Hacks and Tricks for Machine Learning with Python"](https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machine-learning-with-python-5478bc6593f2)
 <img src="https://cookieegroup.com/wp-content/uploads/2018/10/2-1.png" width="450" height="300"/>
@@ -27,6 +31,8 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 * **[Basics of Numpy array](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Numpy%20arrays.ipynb)**
 * **[Basics of Pandas DataFrame](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Pandas%20DataFrame.ipynb)**
 * **[Basics of Matplotlib and Descriptive Statistics](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Basics%20of%20Matplotlib%20and%20Descriptive%20Statistics.ipynb)**
+
+---
 
 ## Regression
 * Simple linear regression with t-statistic generation
