@@ -94,8 +94,7 @@ Regression
    linear regression problem (`Here is the
    Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Regression_Diagnostics.ipynb>`__).
    
-- How linear regression and neural network fare in the task of nonlinear function approximation (`Here is the
-   Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Function%20Approximation%20by%20Neural%20Network/Function%20approximation%20by%20linear%20model%20and%20deep%20network.ipynb>`__)
+- How linear regression and neural network fare in the task of nonlinear function approximation (`Here is the Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Function%20Approximation%20by%20Neural%20Network/Function%20approximation%20by%20linear%20model%20and%20deep%20network.ipynb>`__)
 
 --------------
 
@@ -161,15 +160,13 @@ Complexity and learning curve analyses are essentially are part of the visual an
 
 **Learning curve**: Graphs that compares the performance of a model on training and testing data over a varying number of training instances. We should generally see performance improve as the number of training points increases.
 
-**Complexity curve**: Graphs that show the model performance over training and validation set for varying degree of model complexity (e.g. degree of polynomial for linear regression, number of layers or neurons for neural networks, number of estimator trees for a Boosting algorithm or Random Forest)
+**Complexity curve**: Graphs that show the model performance over training and validation set for varying degree of model complexity (e.g. degree of polynomial for linear regression, number of layers or neurons for neural networks, number of estimator trees for a Boosting algorithm or Random Forest).
 
-- Complexity and learning curve with Lending club dataset
-   (`Here is the
-   Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Complexity_Learning_curves/Complexity_Learning_Analysis_Lending_Data.ipynb>`__).
+- Complexity and learning curve with Lending club dataset (`Here is the Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Complexity_Learning_curves/Complexity_Learning_Analysis_Lending_Data.ipynb>`__).
    
-- Complexity and learning curve with a synthetic dataset (``Hastie function`` from Scikit-learn)
-   (`Here is the
-   Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Complexity_Learning_curves/Complexity_learning_curve_Hastie_dataset.ipynb>`__).
+- Complexity and learning curve with a synthetic dataset using the ``Hastie function`` from Scikit-learn (`Here is the Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Complexity_Learning_curves/Complexity_learning_curve_Hastie_dataset.ipynb>`__).
+   
+------
    
 
 Random data generation using symbolic expressions
