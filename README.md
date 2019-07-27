@@ -26,7 +26,7 @@ You can start with this article that I wrote in Heartbeat magazine (on Medium pl
 ## Essential tutorial-type notebooks on Pandas and Numpy
 Jupyter notebooks covering a wide range of functions and operations on the topics of NumPy, Pandans, Seaborn, matplotlib etc.
 
-### [Basic Numpy operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Numpy%20arrays.ipynb)
+* [Basic Numpy operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Numpy%20arrays.ipynb)
 * [Basic Pandas operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Pandas%20DataFrame.ipynb)
 * [Basics of visualization with Matplotlib and descriptive stats](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Matplotlib%20and%20Descriptive%20Statistics.ipynb)
 * [Advanced Pandas operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Advanced%20Pandas%20Operations.ipynb)
