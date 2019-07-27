@@ -9,6 +9,10 @@ here <https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7>`__.
 
 --------------
 
+.. image:: https://miro.medium.com/max/1838/1*92h6Lg1Bu1F9QqoVNrkLdQ.jpeg
+   :width: 500px
+   :height: 450px
+
 Requirements
 ------------
 
