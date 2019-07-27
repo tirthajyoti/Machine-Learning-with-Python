@@ -10,11 +10,12 @@ here <https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7>`__.
 --------------
 
 .. image:: https://miro.medium.com/max/1838/1*92h6Lg1Bu1F9QqoVNrkLdQ.jpeg
-   :width: 500px
+   :width: 600px
    :height: 450px
+   :align: "center"
 
 Requirements
-------------
+==================================================
 
 -  Python 3.5
 -  NumPy (``pip install numpy``)
@@ -35,7 +36,7 @@ Medium platform):
 Python” <https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machine-learning-with-python-5478bc6593f2>`__
 
 Essential tutorial-type notebooks on Pandas and Numpy
------------------------------------------------------
+========================================================
 
 Jupyter notebooks covering a wide range of functions and operations on
 the topics of NumPy, Pandans, Seaborn, matplotlib etc.
@@ -64,7 +65,7 @@ the topics of NumPy, Pandans, Seaborn, matplotlib etc.
    on Medium on this topic)
 
 Regression
-----------
+========================================================
 
 -  Simple linear regression with t-statistic generation (`Here is the
    Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Linear_Regression_Practice.ipynb>`__)
@@ -96,7 +97,7 @@ Regression
 --------------
 
 Classification
---------------
+========================================================
 
 -  Logistic regression/classification (`Here is the
    Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Classification/Logistic_Regression_Classification.ipynb>`__).
@@ -119,7 +120,7 @@ Classification
 --------------
 
 Clustering
-----------
+========================================================
 
 -  *K*-means clustering (`Here is the
    Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/K_Means_Clustering_Practice.ipynb>`__).
@@ -144,7 +145,7 @@ Clustering
 --------------
 
 Dimensionality reduction
-------------------------
+========================================================
 
 -  Principal component analysis (`Here is the
    Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/Principal%20Component%20Analysis.ipynb>`__)
@@ -152,7 +153,7 @@ Dimensionality reduction
 --------------
 
 Random data generation using symbolic expressions
--------------------------------------------------
+========================================================
 
 -  Simple script to generate random polynomial expression/function
    (`Here is the
@@ -173,7 +174,7 @@ Random data generation using symbolic expressions
 --------------
 
 Simple deployment examples (serving ML models on web API)
----------------------------------------------------------
+===========================================================
 
 -  `Serving a linear regression model through a simple HTTP server
    interface <https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment/Linear_regression>`__.
@@ -189,7 +190,7 @@ Simple deployment examples (serving ML models on web API)
 --------------
 
 Object-oriented programming with machine learning
--------------------------------------------------
+===========================================================
 
 Implementing some of the core OOP principles in a machine learning
 context by `building your own Scikit-learn-like estimator, and making it
