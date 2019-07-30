@@ -1,6 +1,7 @@
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 [![GitHub forks](https://img.shields.io/github/forks/tirthajyoti/Machine-Learning-with-Python.svg)](https://github.com/tirthajyoti/Machine-Learning-with-Python/network)
 [![GitHub stars](https://img.shields.io/github/stars/tirthajyoti/Machine-Learning-with-Python.svg)](https://github.com/tirthajyoti/Machine-Learning-with-Python/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tirthajyoti/Machine-Learning-with-Python/pulls)
 
 # Python Machine Learning Notebooks (Tutorial style)
 
@@ -9,14 +10,14 @@
 
 ### Requirements
 * **Python 3.5+**
-* **NumPy (`$ pip install numpy`)**
-* **Pandas (`$ pip install pandas`)**
-* **Scikit-learn (`$ pip install scikit-learn`)**
-* **SciPy (`$ pip install scipy`)**
-* **Statsmodels (`$ pip install statsmodels`)**
-* **MatplotLib (`$ pip install matplotlib`)**
-* **Seaborn (`$ pip install seaborn`)**
-* **Sympy (`$ pip install sympy`)**
+* **NumPy (`pip install numpy`)**
+* **Pandas (`pip install pandas`)**
+* **Scikit-learn (`pip install scikit-learn`)**
+* **SciPy (`pip install scipy`)**
+* **Statsmodels (`pip install statsmodels`)**
+* **MatplotLib (`pip install matplotlib`)**
+* **Seaborn (`pip install seaborn`)**
+* **Sympy (`pip install sympy`)**
 ---
 
 You can start with this article that I wrote in Heartbeat magazine (on Medium platform): 
