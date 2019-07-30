@@ -18,6 +18,11 @@
 * **MatplotLib (`pip install matplotlib`)**
 * **Seaborn (`pip install seaborn`)**
 * **Sympy (`pip install sympy`)**
+* **Flask (`pip install flask`)**
+* **WTForms (`pip install wtforms`)**
+* **Tensorflow (`pip install tensorflow`)**
+* **Keras (`pip install keras`)**
+
 ---
 
 You can start with this article that I wrote in Heartbeat magazine (on Medium platform): 
