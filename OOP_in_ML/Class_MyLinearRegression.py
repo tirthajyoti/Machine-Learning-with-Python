@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import statsmodels.api as sm
 
 
 class Metrics:
@@ -14,35 +15,53 @@ class Metrics:
     """
 
     def sse(self):
-        """returns sum of squared errors (model vs actual)"""
+        """Returns sum of squared errors (model vs actual)"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         squared_errors = (self.resid_) ** 2
         self.sq_error_ = np.sum(squared_errors)
         return self.sq_error_
 
     def sst(self):
-        """returns total sum of squared errors (actual vs avg(actual))"""
+        """Returns total sum of squared errors (actual vs avg(actual))"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         avg_y = np.mean(self.target_)
         squared_errors = (self.target_ - avg_y) ** 2
         self.sst_ = np.sum(squared_errors)
         return self.sst_
 
     def r_squared(self):
-        """returns calculated value of r^2"""
+        """Returns calculated value of r^2"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         self.r_sq_ = 1 - self.sse() / self.sst()
         return self.r_sq_
 
     def adj_r_squared(self):
-        """returns calculated value of adjusted r^2"""
+        """Returns calculated value of adjusted r^2"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         self.adj_r_sq_ = 1 - (self.sse() / self.dfe_) / (self.sst() / self.dft_)
         return self.adj_r_sq_
 
     def mse(self):
-        """returns calculated value of mse"""
+        """Returns calculated value of mse"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         self.mse_ = np.mean((self.predict(self.features_) - self.target_) ** 2)
         return self.mse_
 
     def pretty_print_stats(self):
-        """returns report of statistics for a given model object"""
+        """Returns report of statistics for a given model object"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         items = (
             ("sse:", self.sse()),
             ("sst:", self.sst()),
@@ -54,10 +73,30 @@ class Metrics:
             print("{0:8} {1:.4f}".format(item[0], item[1]))
 
 
+class Inference:
+    """
+    Inferential statistics: standard error, p-values, etc. 
+    """
+
+    def __init__():
+        pass
+
+    def pvalues(self):
+        """
+        Returns p-values of the features
+        """
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
+        lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
+        return lm.pvalues
+
+
 class Diagnostics_plots:
     """
     Diagnostics plots and methods
     
+    Arguments:
     fitted_vs_residual: Plots fitted values vs. residuals
     fitted_vs_features: Plots residuals vs all feature variables in a grid
     histogram_resid: Plots a histogram of the residuals (can be normalized)
@@ -70,6 +109,9 @@ class Diagnostics_plots:
 
     def fitted_vs_residual(self):
         """Plots fitted values vs. residuals"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         plt.title("Fitted vs. residuals plot", fontsize=14)
         plt.scatter(self.fitted_, self.resid_, edgecolor="k")
         plt.hlines(
@@ -85,6 +127,9 @@ class Diagnostics_plots:
 
     def fitted_vs_features(self):
         """Plots residuals vs all feature variables in a grid"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         num_plots = self.features_.shape[1]
         if num_plots % 3 == 0:
             nrows = int(num_plots / 3)
@@ -117,6 +162,9 @@ class Diagnostics_plots:
 
     def histogram_resid(self, normalized=True):
         """Plots a histogram of the residuals (can be normalized)"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         if normalized:
             norm_r = self.resid_ / np.linalg.norm(self.resid_)
         else:
@@ -130,6 +178,9 @@ class Diagnostics_plots:
 
     def shapiro_test(self, normalized=True):
         """Performs Shapiro-Wilk normality test on the residuals"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         from scipy.stats import shapiro
 
         if normalized:
@@ -146,6 +197,9 @@ class Diagnostics_plots:
 
     def qqplot_resid(self, normalized=True):
         """Creates a quantile-quantile plot for residuals comparing with a normal distribution"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         from scipy.stats import probplot
 
         if normalized:
@@ -172,6 +226,9 @@ class Data_plots:
 
     def pairplot(self):
         """Creates pairplot of all variables and the target using the Seaborn library"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
 
         print("This may take a little time. Have patience...")
         from seaborn import pairplot
@@ -188,6 +245,9 @@ class Data_plots:
         Arguments:
         reference_line: A Boolean switch to draw a 45-degree reference line on the plot
         """
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         plt.title("True vs. fitted values", fontsize=14)
         plt.scatter(y, self.fitted_, s=100, alpha=0.75, color="red", edgecolor="k")
         if reference_line:
@@ -212,6 +272,9 @@ class Outliers:
 
     def cook_distance(self):
         """Computes and plots Cook\'s distance"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         import statsmodels.api as sm
         from statsmodels.stats.outliers_influence import OLSInfluence as influence
 
@@ -226,6 +289,9 @@ class Outliers:
 
     def influence_plot(self):
         """Creates the influence plot"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         import statsmodels.api as sm
 
         lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
@@ -235,6 +301,9 @@ class Outliers:
 
     def leverage_resid_plot(self):
         """Plots leverage vs normalized residuals' square"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         import statsmodels.api as sm
 
         lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
@@ -255,6 +324,9 @@ class Multicollinearity:
 
     def vif(self):
         """Computes variance influence factors for each feature variable"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
         import statsmodels.api as sm
         from statsmodels.stats.outliers_influence import (
             variance_inflation_factor as vif,
@@ -267,24 +339,27 @@ class Multicollinearity:
 
 
 class MyLinearRegression(
-    Metrics, Diagnostics_plots, Data_plots, Outliers, Multicollinearity
+    Metrics, Diagnostics_plots, Data_plots, Outliers, Multicollinearity, Inference
 ):
     def __init__(self, fit_intercept=True):
         self.coef_ = None
         self.intercept_ = None
         self._fit_intercept = fit_intercept
+        self.is_fitted = False
+        self.features_ = None
+        self.target_ = None
 
     def __repr__(self):
         return "I am a Linear Regression model!"
 
-    def fit(self, X, y):
+    def ingest_data(self, X, y):
         """
-        Fit model coefficients.
+       Ingests the given data
+        
         Arguments:
         X: 1D or 2D numpy array 
         y: 1D numpy array
         """
-
         # check if X is 1D or 2D array
         if len(X.shape) == 1:
             X = X.reshape(-1, 1)
@@ -293,16 +368,33 @@ class MyLinearRegression(
         self.features_ = X
         self.target_ = y
 
+    def fit(self, X=None, y=None, _fit_intercept=True):
+        """
+        Fit model coefficients.
+        Arguments:
+        X: 1D or 2D numpy array 
+        y: 1D numpy array
+        """
+
+        if X != None:
+            if len(X.shape) == 1:
+                X = X.reshape(-1, 1)
+            self.features_ = X
+        if y != None:
+            self.target_ = y
+
         # degrees of freedom of population dependent variable variance
-        self.dft_ = X.shape[0] - 1
+        self.dft_ = self.features_.shape[0] - 1
         # degrees of freedom of population error variance
-        self.dfe_ = X.shape[0] - X.shape[1] - 1
+        self.dfe_ = self.features_.shape[0] - self.features_.shape[1] - 1
 
         # add bias if fit_intercept is True
         if self._fit_intercept:
-            X_biased = np.c_[np.ones(X.shape[0]), X]
+            X_biased = np.c_[np.ones(self.features_.shape[0]), self.features_]
         else:
-            X_biased = X
+            X_biased = self.features_
+        # Assign target_ to a local variable y
+        y = self.target_
 
         # closed form solution
         xTx = np.dot(X_biased.T, X_biased)
@@ -319,11 +411,14 @@ class MyLinearRegression(
             self.coef_ = coef
 
         # Predicted/fitted y
-        self.fitted_ = np.dot(X, self.coef_) + self.intercept_
+        self.fitted_ = np.dot(self.features_, self.coef_) + self.intercept_
 
         # Residuals
         residuals = self.target_ - self.fitted_
         self.resid_ = residuals
+
+        # Set is_fitted to True
+        self.is_fitted = True
 
     def predict(self, X):
         """Output model prediction.
