@@ -12,10 +12,12 @@ class Metrics:
     r_squared: Regression coefficient (R^2)
     adj_r_squared: Adjusted R^2
     mse: Mean sum of squared errors
+    AIC: Akaike information criterion
+    BIC: Bayesian information criterion
     """
 
     def sse(self):
-        """Returns sum of squared errors (model vs actual)"""
+        """Returns sum of squared errors (model vs. actual)"""
         if not self.is_fitted:
             print("Model not fitted yet!")
             return None
@@ -57,8 +59,28 @@ class Metrics:
         self.mse_ = np.mean((self.predict(self.features_) - self.target_) ** 2)
         return self.mse_
 
-    def pretty_print_stats(self):
-        """Returns report of statistics for a given model object"""
+    def aic(self):
+        """
+        Returns AIC (Akaike information criterion)
+        """
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
+        lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
+        return lm.aic
+
+    def bic(self):
+        """
+        Returns BIC (Bayesian information criterion)
+        """
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
+        lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
+        return lm.bic
+
+    def print_metrics(self):
+        """Prints a report of the useful metrics for a given model object"""
         if not self.is_fitted:
             print("Model not fitted yet!")
             return None
@@ -68,18 +90,53 @@ class Metrics:
             ("mse:", self.mse()),
             ("r^2:", self.r_squared()),
             ("adj_r^2:", self.adj_r_squared()),
+            ("AIC:", self.aic()),
+            ("BIC:", self.bic()),
         )
         for item in items:
             print("{0:8} {1:.4f}".format(item[0], item[1]))
 
+    def summary_metrics(self):
+        """Returns a dictionary of the useful metrics"""
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
+        metrics = {}
+        items = (
+            ("sse", self.sse()),
+            ("sst", self.sst()),
+            ("mse", self.mse()),
+            ("r^2", self.r_squared()),
+            ("adj_r^2:", self.adj_r_squared()),
+            ("AIC:", self.aic()),
+            ("BIC:", self.bic()),
+        )
+        for item in items:
+            metrics[item[0]] = item[1]
+        return metrics
+
 
 class Inference:
     """
-    Inferential statistics: standard error, p-values, etc. 
+    Inferential statistics: 
+        standard error, 
+        p-values
+        t-test statistics
+        F-statistics and p-value of F-test
     """
 
     def __init__():
         pass
+
+    def std_err(self):
+        """
+        Returns standard error values of the features
+        """
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
+        lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
+        return lm.bse
 
     def pvalues(self):
         """
@@ -90,7 +147,7 @@ class Inference:
             return None
         lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
         return lm.pvalues
-    
+
     def tvalues(self):
         """
         Returns t-test values of the features
@@ -100,16 +157,16 @@ class Inference:
             return None
         lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
         return lm.tvalues
-    
-    def std_err(self):
+
+    def ftest(self):
         """
-        Returns standard error values of the features
+        Returns the F-statistic of the overall regression and corresponding p-value
         """
         if not self.is_fitted:
             print("Model not fitted yet!")
             return None
         lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
-        return lm.bse
+        return (lm.fvalue, lm.f_pvalue)
 
 
 class Diagnostics_plots:
@@ -364,7 +421,7 @@ class MyLinearRegression(
     def __init__(self, fit_intercept=True):
         self.coef_ = None
         self.intercept_ = None
-        self._fit_intercept = fit_intercept
+        self.fit_intercept_ = fit_intercept
         self.is_fitted = False
         self.features_ = None
         self.target_ = None
@@ -388,7 +445,7 @@ class MyLinearRegression(
         self.features_ = X
         self.target_ = y
 
-    def fit(self, X=None, y=None, _fit_intercept=True):
+    def fit(self, X=None, y=None, fit_intercept_=True):
         """
         Fit model coefficients.
         Arguments:
@@ -409,7 +466,7 @@ class MyLinearRegression(
         self.dfe_ = self.features_.shape[0] - self.features_.shape[1] - 1
 
         # add bias if fit_intercept is True
-        if self._fit_intercept:
+        if self.fit_intercept_:
             X_biased = np.c_[np.ones(self.features_.shape[0]), self.features_]
         else:
             X_biased = self.features_
@@ -423,7 +480,118 @@ class MyLinearRegression(
         coef = np.dot(inverse_xTx, xTy)
 
         # set attributes
-        if self._fit_intercept:
+        if self.fit_intercept_:
+            self.intercept_ = coef[0]
+            self.coef_ = coef[1:]
+        else:
+            self.intercept_ = 0
+            self.coef_ = coef
+
+        # Predicted/fitted y
+        self.fitted_ = np.dot(self.features_, self.coef_) + self.intercept_
+
+        # Residuals
+        residuals = self.target_ - self.fitted_
+        self.resid_ = residuals
+
+        # Set is_fitted to True
+        self.is_fitted = True
+
+    def fit(self, X=None, y=None, fit_intercept_=True):
+        """
+        Fits model coefficients.
+        
+        Arguments:
+        X: 1D or 2D numpy array 
+        y: 1D numpy array
+        fit_intercept: Boolean, whether an intercept term will be included in the fit
+        """
+
+        if X != None:
+            if len(X.shape) == 1:
+                X = X.reshape(-1, 1)
+            self.features_ = X
+        if y != None:
+            self.target_ = y
+
+        # degrees of freedom of population dependent variable variance
+        self.dft_ = self.features_.shape[0] - 1
+        # degrees of freedom of population error variance
+        self.dfe_ = self.features_.shape[0] - self.features_.shape[1] - 1
+
+        # add bias if fit_intercept is True
+        if self.fit_intercept_:
+            X_biased = np.c_[np.ones(self.features_.shape[0]), self.features_]
+        else:
+            X_biased = self.features_
+        # Assign target_ to a local variable y
+        y = self.target_
+
+        # closed form solution
+        xTx = np.dot(X_biased.T, X_biased)
+        inverse_xTx = np.linalg.inv(xTx)
+        xTy = np.dot(X_biased.T, y)
+        coef = np.dot(inverse_xTx, xTy)
+
+        # set attributes
+        if self.fit_intercept_:
+            self.intercept_ = coef[0]
+            self.coef_ = coef[1:]
+        else:
+            self.intercept_ = 0
+            self.coef_ = coef
+
+        # Predicted/fitted y
+        self.fitted_ = np.dot(self.features_, self.coef_) + self.intercept_
+
+        # Residuals
+        residuals = self.target_ - self.fitted_
+        self.resid_ = residuals
+
+        # Set is_fitted to True
+        self.is_fitted = True
+
+    def fit_dataframe(self, X, y, dataframe, fit_intercept_=True):
+        """
+        Fit model coefficients from a Pandas DataFrame.
+        
+        Arguments:
+        X: A list of columns of the dataframe acting as features. Must be only numerical.
+        y: Name of the column of the dataframe acting as the target
+        fit_intercept: Boolean, whether an intercept term will be included in the fit
+        """
+
+        assert (
+            type(X) == list
+        ), "X must be a list of the names of the numerical feature/predictor columns"
+        assert (
+            type(y) == str
+        ), "y must be a string - name of the column you want as target"
+
+        self.features_ = np.array(dataframe[X])
+        self.target_ = np.array(dataframe[y])
+
+        # degrees of freedom of population dependent variable variance
+        self.dft_ = self.features_.shape[0] - 1
+        # degrees of freedom of population error variance
+        self.dfe_ = self.features_.shape[0] - self.features_.shape[1] - 1
+
+        # add bias if fit_intercept is True
+        if self.fit_intercept_:
+            X_biased = np.c_[np.ones(self.features_.shape[0]), self.features_]
+        else:
+            X_biased = self.features_
+        # Assign target_ to a local variable y
+        y = self.target_
+
+        # closed form solution
+        xTx = np.dot(X_biased.T, X_biased)
+        inverse_xTx = np.linalg.inv(xTx)
+        xTy = np.dot(X_biased.T, y)
+        coef = np.dot(inverse_xTx, xTy)
+
+        # set attributes
+        if self.fit_intercept_:
             self.intercept_ = coef[0]
             self.coef_ = coef[1:]
         else:
