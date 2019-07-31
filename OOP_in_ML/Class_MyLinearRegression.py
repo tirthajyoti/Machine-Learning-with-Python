@@ -90,6 +90,26 @@ class Inference:
             return None
         lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
         return lm.pvalues
+    
+    def tvalues(self):
+        """
+        Returns t-test values of the features
+        """
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
+        lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
+        return lm.tvalues
+    
+    def std_err(self):
+        """
+        Returns standard error values of the features
+        """
+        if not self.is_fitted:
+            print("Model not fitted yet!")
+            return None
+        lm = sm.OLS(self.target_, sm.add_constant(self.features_)).fit()
+        return lm.bse
 
 
 class Diagnostics_plots:
