@@ -53,7 +53,8 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/L1_and_L2_balls.svg/300px-L1_and_L2_balls.svg.png"/>
 
 * Polynomial regression using ***scikit-learn pipeline feature*** ([check the article I wrote on *Towards Data Science*](https://towardsdatascience.com/machine-learning-with-python-easy-and-robust-method-to-fit-nonlinear-data-19e8a1ddbd49))
-* Decision trees and Random Forest regression (showing how the Random Forest works as a robust/regularized meta-estimator rejecting overfitting)
+
+* [Decision trees and Random Forest regression](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Random_Forest_Regression.ipynb) (showing how the Random Forest works as a robust/regularized meta-estimator rejecting overfitting)
 
 * [Detailed visual analytics and goodness-of-fit diagnostic tests for a linear regression problem](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Regression_Diagnostics.ipynb)
 
