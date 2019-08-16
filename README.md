@@ -57,6 +57,8 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 
 * [Detailed visual analytics and goodness-of-fit diagnostic tests for a linear regression problem](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Regression_Diagnostics.ipynb)
 
+* [Robust linear regression using `HuberRegressor` from Scikit-learn](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Robust%20Linear%20Regression.ipynb)
+
 -----
 
 ### Classification
