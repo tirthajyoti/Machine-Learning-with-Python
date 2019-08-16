@@ -96,6 +96,8 @@ Regression
    
 - How linear regression and neural network fare in the task of nonlinear function approximation (`Here is the Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Function%20Approximation%20by%20Neural%20Network/Function%20approximation%20by%20linear%20model%20and%20deep%20network.ipynb>`__)
 
+- Robust regression fit example (`Here is the Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Robust%20Linear%20Regression.ipynb>`__)
+
 --------------
 
 Classification
