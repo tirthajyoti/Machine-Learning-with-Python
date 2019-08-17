@@ -98,6 +98,8 @@ Regression
 
 - Robust regression fit example (`Here is the Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Robust%20Linear%20Regression.ipynb>`__)
 
+- Support vector regression example using nonlinear synthetic data (`Here is the Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Support%20Vector%20Regression.ipynb>`__)
+
 --------------
 
 Classification
