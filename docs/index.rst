@@ -41,12 +41,13 @@ Essential tutorial-type notebooks on Pandas and Numpy
 Jupyter notebooks covering a wide range of functions and operations on
 the topics of NumPy, Pandans, Seaborn, matplotlib etc.
 
--  `Basic Numpy
-   operations <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Numpy%20arrays.ipynb>`__
--  `Basic Pandas
-   operations <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Pandas%20DataFrame.ipynb>`__
--  `Basics of visualization with Matplotlib and descriptive
-   stats <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Matplotlib%20and%20Descriptive%20Statistics.ipynb>`__
+-  `Detailed Numpy
+   operations <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Numpy_operations.ipynb>`__
+-  `Detailed Pandas
+   operations <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Pandas_Operations.ipynb>`__
+-  `Numpy and Pandas quick basics
+   operations <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Numpy_Pandas_Quick.ipynb>`__
+-  `Basics of visualization with Matplotlib and Seaborn <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Matplotlib_Seaborn_basics.ipynb>`__
 -  `Advanced Pandas
    operations <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Advanced%20Pandas%20Operations.ipynb>`__
 -  `How to read various data
