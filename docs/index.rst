@@ -224,6 +224,8 @@ which can do fitting, prediction, cpmputation of regression metrics,
 plot outliers, plot diagnostics (linearity, constant variance, etc.),
 compute variance inflation factors.
 
+I created a Python package based on this work, which offers simple Scikit-learn style interface API along with deep statistical inference and residual analysis capabilities for linear regression problems. `Check it out here <https://mlr.readthedocs.io>`__.
+
 See my articles on Medium on this topic.
 
 -  `Object-oriented programming for data scientists: Build your ML
