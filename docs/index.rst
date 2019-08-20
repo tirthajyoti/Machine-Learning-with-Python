@@ -35,8 +35,8 @@ Medium platform):
 `“Some Essential Hacks and Tricks for Machine Learning with
 Python” <https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machine-learning-with-python-5478bc6593f2>`__
 
-Essential tutorial-type notebooks on Pandas and Numpy
-========================================================
+Essential tutorial-type notebooks on Pandas, Numpy, and visualizations
+========================================================================
 
 Jupyter notebooks covering a wide range of functions and operations on
 the topics of NumPy, Pandans, Seaborn, matplotlib etc.
