@@ -32,9 +32,10 @@ You can start with this article that I wrote in Heartbeat magazine (on Medium pl
 ## Essential tutorial-type notebooks on Pandas and Numpy
 Jupyter notebooks covering a wide range of functions and operations on the topics of NumPy, Pandans, Seaborn, matplotlib etc.
 
-* [Basic Numpy operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Numpy%20arrays.ipynb)
-* [Basic Pandas operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Pandas%20DataFrame.ipynb)
-* [Basics of visualization with Matplotlib and descriptive stats](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Basics%20of%20Matplotlib%20and%20Descriptive%20Statistics.ipynb)
+* [Detailed Numpy operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Numpy_operations.ipynb)
+* [Detailed Pandas operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Pandas_Operations.ipynb)
+* [Numpy and Pandas quick basics](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Numpy_Pandas_Quick.ipynb)
+* [Matplotlib and Seaborn quick basics](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Matplotlib_Seaborn_basics.ipynb)
 * [Advanced Pandas operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Advanced%20Pandas%20Operations.ipynb)
 * [How to read various data sources](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Read_data_various_sources/How%20to%20read%20various%20sources%20in%20a%20DataFrame.ipynb)
 * [PDF reading and table processing demo](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Read_data_various_sources/PDF%20table%20reading%20and%20processing%20demo.ipynb)
