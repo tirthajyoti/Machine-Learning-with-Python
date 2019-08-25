@@ -70,6 +70,9 @@ Regression
 
 -  Simple linear regression with t-statistic generation (`Here is the
    Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Linear_Regression_Practice.ipynb>`__)
+   
+-  Linear regression as a statistical estimation problem (`Here is the
+   Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Regression/Linear_regression_statistical_estimation.ipynb>`__)
 
 -  Multiple ways to perform linear regression in Python and their speed
    comparison (`Here is the
