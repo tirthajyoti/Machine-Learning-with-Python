@@ -160,6 +160,9 @@ Dimensionality reduction
 -  Principal component analysis (`Here is the
    Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/Principal%20Component%20Analysis.ipynb>`__)
 
+-  Clustering combined with dimensionality reduction technqieus (`Here is the
+   Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/Clustering_with_dim_reduction.ipynb>`__)
+
 --------------
 
 Complexity and Learning curve analysis
