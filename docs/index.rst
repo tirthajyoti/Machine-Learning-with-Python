@@ -65,7 +65,7 @@ the topics of NumPy, Pandans, Seaborn, matplotlib etc.
    `article <https://towardsdatascience.com/why-you-should-start-using-npy-file-more-often-df2a13cc0161>`__
    on Medium on this topic)
 
-Regression
+Regression related Notebooks
 ========================================================
 
 -  Simple linear regression with t-statistic generation (`Here is the
@@ -106,7 +106,7 @@ Regression
 
 --------------
 
-Classification
+Classification related Notebooks
 ========================================================
 
 -  Logistic regression/classification (`Here is the
@@ -129,7 +129,7 @@ Classification
 
 --------------
 
-Clustering
+Clustering related Notebooks
 ========================================================
 
 -  *K*-means clustering (`Here is the
@@ -154,7 +154,7 @@ Clustering
 
 --------------
 
-Dimensionality reduction
+Dimensionality reduction related Notebooks
 ========================================================
 
 -  Principal component analysis (`Here is the
