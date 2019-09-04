@@ -126,6 +126,9 @@ Classification related Notebooks
 
 -  Naive Bayes classification (`Here is the
    Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Classification/Naive_Bayes_Classification.ipynb>`__).
+   
+-  Classification using Stochastic Gradient Descent (SGD) (`Here is the
+   Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Classification/Stochastic_grad_descent.ipynb>`__).
 
 --------------
 
