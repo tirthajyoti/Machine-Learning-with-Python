@@ -154,7 +154,10 @@ Clustering related Notebooks
 -  Hierarchical clustering with Dendograms showing how to choose optimal
    number of clusters (`Here is the
    Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/Hierarchical_Clustering.ipynb>`__).
-
+   
+-  Clustering metrics better than the elbow-method (`Here is the
+   Notebook <https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Clustering-Dimensionality-Reduction/Clustering_metrics.ipynb>`__).
+   
 --------------
 
 Dimensionality reduction related Notebooks
