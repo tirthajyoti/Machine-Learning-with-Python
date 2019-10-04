@@ -8,7 +8,7 @@
 ### Dr. Tirthajyoti Sarkar, Fremont, CA ([Please feel free to add me on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
 ---
 
-### Requirements
+## Requirements
 * **Python 3.5+**
 * **NumPy (`pip install numpy`)**
 * **Pandas (`pip install pandas`)**
