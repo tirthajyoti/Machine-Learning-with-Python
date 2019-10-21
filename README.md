@@ -30,7 +30,7 @@ You can start with this article that I wrote in Heartbeat magazine (on Medium pl
 <img src="https://cookieegroup.com/wp-content/uploads/2018/10/2-1.png" width="450" height="300"/>
 
 ## Essential tutorial-type notebooks on Pandas and Numpy
-Jupyter notebooks covering a wide range of functions and operations on the topics of NumPy, Pandans, Seaborn, matplotlib etc.
+Jupyter notebooks covering a wide range of functions and operations on the topics of NumPy, Pandans, Seaborn, Matplotlib etc.
 
 * [Detailed Numpy operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Numpy_operations.ipynb)
 * [Detailed Pandas operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Pandas_Operations.ipynb)
