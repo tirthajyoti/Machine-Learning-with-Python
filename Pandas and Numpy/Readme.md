@@ -1,4 +1,4 @@
-## Pandas and Numpy tutorial-style notebooks
+# Pandas and Numpy tutorial-style notebooks
 
 ### [Detailed Numpy operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Numpy_operations.ipynb)
 ### [Detailed Pandas operations](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Pandas_Operations.ipynb)
