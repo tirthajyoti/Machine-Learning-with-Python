@@ -22,6 +22,7 @@
 * **WTForms (`pip install wtforms`)**
 * **Tensorflow (`pip install tensorflow`)**
 * **Keras (`pip install keras`)**
+* **pdpipe (`pip install pdpipe`)**
 
 ---
 
