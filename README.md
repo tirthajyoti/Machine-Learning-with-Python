@@ -20,7 +20,7 @@
 * **Sympy (`pip install sympy`)**
 * **Flask (`pip install flask`)**
 * **WTForms (`pip install wtforms`)**
-* **Tensorflow (`pip install tensorflow`)**
+* **Tensorflow (`pip install tensorflow>=1.15`)**
 * **Keras (`pip install keras`)**
 * **pdpipe (`pip install pdpipe`)**
 
