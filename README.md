@@ -5,7 +5,7 @@
 
 # Python Machine Learning Notebooks ([ML website](https://machine-learning-with-python.readthedocs.io/en/latest/))
 
-### Dr. Tirthajyoti Sarkar, Fremont, CA ([Please feel free to connect on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
+### Dr. Tirthajyoti Sarkar, Fremont, California ([Please feel free to connect on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
 ---
 
 ## Requirements
