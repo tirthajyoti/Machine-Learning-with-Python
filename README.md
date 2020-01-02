@@ -3,7 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/tirthajyoti/Machine-Learning-with-Python.svg)](https://github.com/tirthajyoti/Machine-Learning-with-Python/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tirthajyoti/Machine-Learning-with-Python/pulls)
 
-# Python Machine Learning Notebooks ([ML website](https://machine-learning-with-python.readthedocs.io/en/latest/))
+# Python Machine Learning Jupyter Notebooks ([ML website](https://machine-learning-with-python.readthedocs.io/en/latest/))
 
 ### Dr. Tirthajyoti Sarkar, Fremont, California ([Please feel free to connect on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
 ---
