@@ -114,7 +114,11 @@ Jupyter notebooks covering a wide range of functions and operations on the topic
 * How to use [Sympy package](https://www.sympy.org/en/index.html) to generate random datasets using symbolic mathematical expressions.
 
 * Here is my article on Medium on this topic: [Random regression and classification problem generation with symbolic expression](https://towardsdatascience.com/random-regression-and-classification-problem-generation-with-symbolic-expression-a4e190e37b8d)
+
 ---
+
+### Synthetic data generation techniques
+* [Notebooks here](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Synthetic_data_generation)
 
 ### Simple deployment examples (serving ML models on web API)
 * [Serving a linear regression model through a simple HTTP server interface](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Deployment/Linear_regression). User needs to request predictions by executing a Python script. Uses `Flask` and `Gunicorn`.
