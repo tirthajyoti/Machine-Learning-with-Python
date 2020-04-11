@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def plot_decision_boundaries(X, y, model_class, **model_params):
-    """Function to plot the decision boundaries of a classification model.
+    """
+    Function to plot the decision boundaries of a classification model.
     This uses just the first two columns of the data for fitting 
     the model as we need to find the predicted value for every point in 
     scatter plot.
@@ -27,8 +28,11 @@ def plot_decision_boundaries(X, y, model_class, **model_params):
         y = np.array(y).flatten()
     except:
         print("Coercing input data to NumPy arrays failed")
+    # Reduces to the first two columns of data
     reduced_data = X[:, :2]
+    # Instantiate the model object
     model = model_class(**model_params)
+    # Fits the model with the reduced data
     model.fit(reduced_data, y)
 
     # Step size of the mesh. Decrease to increase the quality of the VQ.
@@ -37,6 +41,7 @@ def plot_decision_boundaries(X, y, model_class, **model_params):
     # Plot the decision boundary. For that, we will assign a color to each
     x_min, x_max = reduced_data[:, 0].min() - 1, reduced_data[:, 0].max() + 1
     y_min, y_max = reduced_data[:, 1].min() - 1, reduced_data[:, 1].max() + 1
+    # Meshgrid creation
     xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
 
     # Obtain labels for each point in mesh using the model.
@@ -47,8 +52,10 @@ def plot_decision_boundaries(X, y, model_class, **model_params):
     xx, yy = np.meshgrid(np.arange(x_min, x_max, 0.1),
                          np.arange(y_min, y_max, 0.1))
 
+    # Predictions to obtain the classification results
     Z = model.predict(np.c_[xx.ravel(), yy.ravel()]).reshape(xx.shape)
 
+    # Plotting
     plt.contourf(xx, yy, Z, alpha=0.4)
     plt.scatter(X[:, 0], X[:, 1], c=y, alpha=0.8)
     plt.xlabel("Feature-1",fontsize=15)
