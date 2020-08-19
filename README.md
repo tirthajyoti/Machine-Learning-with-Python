@@ -6,11 +6,8 @@
 # Python Machine Learning Jupyter Notebooks ([ML website](https://machine-learning-with-python.readthedocs.io/en/latest/))
 
 ### Dr. Tirthajyoti Sarkar, Fremont, California ([Please feel free to connect on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
+
 ---
-
-“[Machine-Learning-with-Python] is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial”
-
-<a href="https://tracking.gitads.io/?repo=Machine-Learning-with-Python"> <img src="https://images.gitads.io/Machine-Learning-with-Python" alt="GitAds"/> </a>
 
 ## Requirements
 * **Python 3.6+**
