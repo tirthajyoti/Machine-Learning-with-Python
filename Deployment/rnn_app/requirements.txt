@@ -9,4 +9,4 @@ flask==1.0.3
 jinja2==2.10.1
 wtforms==2.2.1
 keras==2.2.4
-tensorflow==1.15.2
+tensorflow==1.15.4
