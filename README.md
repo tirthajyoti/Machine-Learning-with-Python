@@ -142,3 +142,8 @@ See my articles on Medium on this topic.
 * [Object-oriented programming for data scientists: Build your ML estimator](https://towardsdatascience.com/object-oriented-programming-for-data-scientists-build-your-ml-estimator-7da416751f64)
 * [How a simple mix of object-oriented programming can sharpen your deep learning prototype](https://towardsdatascience.com/how-a-simple-mix-of-object-oriented-programming-can-sharpen-your-deep-learning-prototype-19893bd969bd)
 
+---
+### Unit testing ML code with Pytest
+Check the files and detailed instructions in the [Pytest](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Pytest) directory to understand how one should write unit testing code/module for machine learning models
+
+
