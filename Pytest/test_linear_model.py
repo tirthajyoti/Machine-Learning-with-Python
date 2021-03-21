@@ -1,3 +1,7 @@
+# Pytest module for testing linear regression model function
+# Dr. Tirthajyoti Sarkar, Fremont, CA
+
+
 from joblib import load, dump
 import numpy as np
 from linear_model import train_linear_model
@@ -164,26 +168,31 @@ def test_wrong_input_raises_assertion():
     #=================================
     # TEST SUITES
     #=================================
-    # Check that it handles the case of: X is a string
+    # Test that it handles the case of: X is a string
     msg = train_linear_model('X',y)
     assert isinstance(msg, AssertionError)
     assert msg.args[0] == "X must be a Numpy array"
-    # Check that it handles the case of: y is a string
+    # Test that it handles the case of: y is a string
     msg = train_linear_model(X,'y')
     assert isinstance(msg, AssertionError)
     assert msg.args[0] == "y must be a Numpy array"
-    # Check that it handles the case of: test_frac is a string
+    # Test that it handles the case of: test_frac is a string
     msg = train_linear_model(X,y, test_frac='0.2')
     assert isinstance(msg, AssertionError)
     assert msg.args[0] == "Test set fraction must be a floating point number"
-    # Check that it handles the case of: test_frac is within 0.0 and 1.0
+    # Test that it handles the case of: test_frac is within 0.0 and 1.0
     msg = train_linear_model(X,y, test_frac=-0.2)
     assert isinstance(msg, AssertionError)
     assert msg.args[0] == "Test set fraction must be between 0.0 and 1.0"
     msg = train_linear_model(X,y, test_frac=1.2)
     assert isinstance(msg, AssertionError)
     assert msg.args[0] == "Test set fraction must be between 0.0 and 1.0"
-    # Check that it handles the case of: filename for model save a string
+    # Test that it handles the case of: filename for model save a string
     msg = train_linear_model(X,y, filename = 2.0)
     assert isinstance(msg, AssertionError)
     assert msg.args[0] == "Filename must be a string"
+    # Test that function is checking input vector shape compatibility
+    X = X.reshape(10,10)
+    msg = train_linear_model(X,y, filename='testing')
+    assert isinstance(msg, AssertionError)
+    assert msg.args[0] == "Row numbers of X and y data must be identical"

@@ -17,6 +17,7 @@ def train_linear_model(X,y,
         assert test_frac < 1.0, "Test set fraction must be between 0.0 and 1.0"
         assert test_frac > 0, "Test set fraction must be between 0.0 and 1.0"
         assert isinstance(filename, str), "Filename must be a string"
+        assert X.shape[0] == y.shape[0], "Row numbers of X and y data must be identical"
 
         # Shaping
         if len(X.shape) == 1:
