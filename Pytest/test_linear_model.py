@@ -96,7 +96,7 @@ def test_loaded_model_works():
 
 #-------------------------------------------------------------------
 
-def test_model_works_data_range():
+def test_model_works_data_range_sign_change():
     # Small-valued data
     X,y = fixed_data_constructor()
     X = 1.0e-9*X
@@ -112,6 +112,26 @@ def test_model_works_data_range():
     X,y = fixed_data_constructor()
     X = 1.0e9*X
     y = 1.0e9*y
+    filename = 'testing'
+    scores = train_linear_model(X,y, filename=filename)
+    
+    # Check that test and train scores are perfectly equal to 1.0
+    assert scores['Train-score'] == 1.0
+    assert scores['Test-score'] == 1.0
+
+    # X-values are flipped
+    X,y = fixed_data_constructor()
+    X = -1 * X
+    filename = 'testing'
+    scores = train_linear_model(X,y, filename=filename)
+    
+    # Check that test and train scores are perfectly equal to 1.0
+    assert scores['Train-score'] == 1.0
+    assert scores['Test-score'] == 1.0
+
+    # y-values are flipped
+    X,y = fixed_data_constructor()
+    y = -1 * y
     filename = 'testing'
     scores = train_linear_model(X,y, filename=filename)
     
