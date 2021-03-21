@@ -1,5 +1,7 @@
 ## A sample Pytest module for a Scikit-learn model training function
 
+![scheme](https://raw.githubusercontent.com/tirthajyoti/Machine-Learning-with-Python/master/Pytest/Overall-scheme.png)
+
 ### How to run Pytest
 
 - Install pytest `pip install pytest`
