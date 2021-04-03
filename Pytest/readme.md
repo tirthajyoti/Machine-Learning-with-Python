@@ -40,7 +40,7 @@ test_linear_model.py::test_raised_exception PASSED                              
 
 ### What does it mean?
 
-- The terminal message (above) indicates that 7 tests were run (corresponding to the 7 functions in the `test_linear_model.py` module) and all of them passed.
+- The terminal message (above) indicates that 9 tests were run (corresponding to the 9 functions in the `test_linear_model.py` module) and all of them passed.
 
 - It also shows the order of the tests run (this is because you included the `- v` argument on the command line while running `pytest` command). Pytest allows you to randomize the testing sequence but that discussion is for another day.
 
