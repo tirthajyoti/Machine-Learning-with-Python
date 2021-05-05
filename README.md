@@ -7,6 +7,8 @@
 
 ### Dr. Tirthajyoti Sarkar, Fremont, California ([Please feel free to connect on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
 
+![ml-ds](https://raw.githubusercontent.com/tirthajyoti/Machine-Learning-with-Python/master/Images/ML-DS-cycle-1.png)
+
 ---
 
 ## Also check out these super-useful Repos that I curated
