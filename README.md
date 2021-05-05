@@ -13,9 +13,9 @@
 
 ## Also check out these super-useful Repos that I curated
 
-[Highly cited and useful papers related to machine learning, deep learning, AI, game theory, reinforcement learning](https://github.com/tirthajyoti/Papers-Literature-ML-DL-RL-AI)
+- ### [Highly cited and useful papers related to machine learning, deep learning, AI, game theory, reinforcement learning](https://github.com/tirthajyoti/Papers-Literature-ML-DL-RL-AI)
 
-[Carefully curated resource links for data science in one place](https://github.com/tirthajyoti/Data-science-best-resources)
+- ### [Carefully curated resource links for data science in one place](https://github.com/tirthajyoti/Data-science-best-resources)
 
 ## Requirements
 * **Python 3.6+**
