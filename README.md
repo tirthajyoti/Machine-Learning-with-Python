@@ -6,11 +6,16 @@
 # Python Machine Learning Jupyter Notebooks ([ML website](https://machine-learning-with-python.readthedocs.io/en/latest/))
 
 ### Dr. Tirthajyoti Sarkar, Fremont, California ([Please feel free to connect on LinkedIn here](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7))
+
+![ml-ds](https://raw.githubusercontent.com/tirthajyoti/Machine-Learning-with-Python/master/Images/ML-DS-cycle-1.png)
+
 ---
 
-“[Machine-Learning-with-Python] is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial”
+## Also check out these super-useful Repos that I curated
 
-<a href="https://tracking.gitads.io/?repo=Machine-Learning-with-Python"> <img src="https://images.gitads.io/Machine-Learning-with-Python" alt="GitAds"/> </a>
+- ### [Highly cited and useful papers related to machine learning, deep learning, AI, game theory, reinforcement learning](https://github.com/tirthajyoti/Papers-Literature-ML-DL-RL-AI)
+
+- ### [Carefully curated resource links for data science in one place](https://github.com/tirthajyoti/Data-science-best-resources)
 
 ## Requirements
 * **Python 3.6+**
@@ -138,4 +143,9 @@ See my articles on Medium on this topic.
 
 * [Object-oriented programming for data scientists: Build your ML estimator](https://towardsdatascience.com/object-oriented-programming-for-data-scientists-build-your-ml-estimator-7da416751f64)
 * [How a simple mix of object-oriented programming can sharpen your deep learning prototype](https://towardsdatascience.com/how-a-simple-mix-of-object-oriented-programming-can-sharpen-your-deep-learning-prototype-19893bd969bd)
+
+---
+### Unit testing ML code with Pytest
+Check the files and detailed instructions in the [Pytest](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Pytest) directory to understand how one should write unit testing code/module for machine learning models
+
 
