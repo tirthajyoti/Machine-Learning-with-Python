@@ -1,4 +1,4 @@
-## Scalene
+## [Scalene](https://github.com/plasma-umass/scalene)
 
 ### Install
 `pip install scalene`
