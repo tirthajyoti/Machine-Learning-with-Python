@@ -148,4 +148,11 @@ See my articles on Medium on this topic.
 ### Unit testing ML code with Pytest
 Check the files and detailed instructions in the [Pytest](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Pytest) directory to understand how one should write unit testing code/module for machine learning models
 
+---
 
+### Memory and timing profiling
+
+Profiling data science code and ML models for memory footprint and computing time is a critical but often overlooed area. Here are a couple of Notebooks showing the ideas,
+
+* [Memory profling using Scalene](https://github.com/tirthajyoti/Machine-Learning-with-Python/tree/master/Memory-profiling/Scalene)
+* [Time-profiling data science code](https://github.com/tirthajyoti/Machine-Learning-with-Python/blob/master/Time-profiling/cProfile.ipynb)
