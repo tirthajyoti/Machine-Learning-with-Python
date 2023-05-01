@@ -5,7 +5,7 @@ requests==2.22.0
 
 scikit-learn==0.21.2
 dill==0.2.9
-flask==1.0.3
+flask==2.3.2
 jinja2==2.11.3
 wtforms==2.2.1
 keras==2.2.4
